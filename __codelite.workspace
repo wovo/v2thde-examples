@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="example code" Database="" Version="10.0.0">
+  <Project Name="01-01-keypad" Path="01-01-keypad/_codelite.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="01-01-keypad" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="01-02-oled" Path="01-02-oled/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="01-02-oled" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="01-03-ir-sensor" Path="01-03-ir-sensor/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="01-03-ir-sensor" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="01-04-ir-send" Path="01-04-ir-send/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="01-04-ir-send" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="01-05-beep" Path="01-05-beep/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="01-05-beep" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="01-06-sws-leds" Path="01-06-sws-leds/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="01-06-sws-leds" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="01-07-cin" Path="01-07-cin/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="01-07-cin" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="02-01-blink" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="02-02-timer" Path="02-02-timer/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="02-02-timer" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="02-03-clock" Path="02-03-clock/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="02-03-clock" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="02-04-flag" Path="02-04-flag/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="02-04-flag" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="02-05-mutex" Path="02-05-mutex/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="02-05-mutex" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="02-06-pool" Path="02-06-pool/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="02-06-pool" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="02-07-channel" Path="02-07-channel/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="02-07-channel" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
