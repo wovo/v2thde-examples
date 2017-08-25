@@ -7,14 +7,11 @@ private:
    hwlib::pin_out & pin;
    long long int delay;
    void main(){
-HWLIB_TRACE;       
       for(;;){
-         pin.set( 1 );
-HWLIB_TRACE;             
-         sleep( delay );
-HWLIB_TRACE;             
+         pin.set( 1 );             
+         hwlib::wait_ms( delay );          
          pin.set( 0 );
-         sleep( delay );
+         hwlib::wait_ms( delay );
       }
    }
 public:
@@ -47,6 +44,6 @@ int main( void ){
    namespace target = hwlib::target;
    auto led_1 = target::pin_out( target::pins::d42 );   
    
-   auto blinkl_led = blinker( "led_1", led_1, 200 * rtos::ms );
+   auto blinkl_led = blinker( "led_1", led_1, 200 );
    rtos::run();
 }

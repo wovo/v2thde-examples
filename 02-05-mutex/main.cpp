@@ -13,10 +13,10 @@ private:
          out.clear();
          for( int i = 0; i < 10; i++ ){
             out << static_cast<char>( c + i );
-            sleep( 1'000 * rtos::ms );
+            hwlib::wait_ms( 1'000 );
          }
          mutex.signal();
-         sleep( 10'000 * rtos::ms );
+         hwlib::wait_ms( 10'000 );
       }
    }
    

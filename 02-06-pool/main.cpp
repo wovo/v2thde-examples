@@ -9,7 +9,7 @@ private:
    
    void main(){
       for(;;){
-         sleep( 1'000 * rtos::ms  );
+         hwlib::wait_ms( 1'000 );
          count_mutex.wait();
          hwlib::cout << count.read() << "\n";
          count_mutex.signal();         
@@ -39,7 +39,7 @@ private:
    
    void main(){
       for(;;){
-         sleep( 800 * rtos::ms  );
+         hwlib::wait_ms( 800 );
          log.increment();
       }
    }

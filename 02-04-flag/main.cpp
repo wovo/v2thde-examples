@@ -11,7 +11,7 @@ private:
       for(;;){                   
          wait( enable_flag );              
          pin.set( 1 );           
-         sleep( 200 * rtos::ms );       
+         hwlib::wait_ms( 200 );       
          pin.set( 0 );         
       }
    }   
