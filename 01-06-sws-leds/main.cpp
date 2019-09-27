@@ -1,10 +1,6 @@
 #include "hwlib.hpp"
 
-
 int main( void ){	
-    
-   // kill the watchdog
-   WDT->WDT_MR = WDT_MR_WDDIS;
    
    namespace target = hwlib::target;
    auto led_1 = target::pin_out( target::pins::d42 );
@@ -15,8 +11,16 @@ int main( void ){
    auto sw_3  = target::pin_in( target::pins::d47 );
    
    for(;;){
-      led_1.set( ! sw_1.get() );
-      led_2.set( ! sw_2.get() );
-      led_3.set( ! sw_3.get() );
+      sw_1.refresh();
+      led_1.write( ! sw_1.read() );
+      led_1.flush();
+      
+      sw_2.refresh();
+      led_2.write( ! sw_2.read() );
+      led_2.flush();
+      
+      sw_3.refresh();
+      led_3.write( ! sw_3.read() );
+      led_3.flush();
    }
 }

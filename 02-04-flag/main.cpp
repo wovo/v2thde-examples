@@ -1,4 +1,3 @@
-#include "bmptk.h"
 #include "hwlib.hpp"
 #include "rtos.hpp"
 
@@ -10,9 +9,11 @@ private:
    void main(){
       for(;;){                   
          wait( enable_flag );              
-         pin.set( 1 );           
+         pin.write( 1 );           
+         pin.flush();
          hwlib::wait_ms( 200 );       
-         pin.set( 0 );         
+         pin.write( 0 );         
+         pin.flush();
       }
    }   
    
@@ -32,7 +33,6 @@ public:
 
 class blinker : public rtos::task<> {
 private:
-   hwlib::pin_out & pin;
    rtos::clock blink_clock;
    led_driver & driver;
    
@@ -48,7 +48,6 @@ public:
       led_driver & driver
    ):
       task( "blinker" ),
-      pin( pin ),
       blink_clock( this, 1'000 * rtos::ms, "blink_clock" ),
       driver( driver )
    {}   

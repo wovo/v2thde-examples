@@ -48,7 +48,7 @@
       <Project Name="02-01-blink" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
-  <Project Name="02-02-timer" Path="02-02-timer/_codelite.project" Active="Yes"/>
+  <Project Name="02-02-timer" Path="02-02-timer/_codelite.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="02-02-timer" ConfigName="Release"/>
@@ -78,7 +78,7 @@
       <Project Name="02-06-pool" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
-  <Project Name="02-07-channel" Path="02-07-channel/_codelite.project" Active="No"/>
+  <Project Name="02-07-channel" Path="02-07-channel/_codelite.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="02-07-channel" ConfigName="Release"/>

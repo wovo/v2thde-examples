@@ -1,13 +1,13 @@
 Archive member included to satisfy reference by file (symbol)
 
-c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_ldivmod.o)
-                              hwlib.o (__aeabi_ldivmod)
-c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_uldivmod.o)
-                              hwlib.o (__aeabi_uldivmod)
-c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_udivmoddi4.o)
-                              c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_ldivmod.o) (__udivmoddi4)
-c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_dvmd_tls.o)
-                              c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_aeabi_ldivmod.o)
+                              rtos.o (__aeabi_ldivmod)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_aeabi_uldivmod.o)
+                              rtos.o (__aeabi_uldivmod)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_udivmoddi4.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_aeabi_ldivmod.o) (__udivmoddi4)
+c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
 
 Allocating common symbols
 Common symbol       size              file
@@ -16,226 +16,45 @@ __dso_handle        0x4               bmptk_cortex.o
 
 Discarded input sections
 
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .group         0x00000000        0x8 hwlib.o
- .text          0x00000000        0x0 hwlib.o
- .data          0x00000000        0x0 hwlib.o
- .bss           0x00000000        0x0 hwlib.o
- .text._ZN5hwlib10pin_in_out7refreshEv
-                0x00000000        0x2 hwlib.o
- .text._ZN5hwlib10pin_in_out5flushEv
-                0x00000000        0x2 hwlib.o
- .text._ZN5hwlib7pin_out5flushEv
-                0x00000000        0x2 hwlib.o
- .text._ZN5hwlib23_pin_in_out_dummy_class3setEbNS_9bufferingE
-                0x00000000        0x2 hwlib.o
- .text._ZN5hwlib23_pin_in_out_dummy_class3getENS_9bufferingE
-                0x00000000        0x4 hwlib.o
- .text._ZN5hwlib23_pin_in_out_dummy_class19direction_set_inputEv
-                0x00000000        0x2 hwlib.o
- .text._ZN5hwlib23_pin_in_out_dummy_class20direction_set_outputEv
-                0x00000000        0x2 hwlib.o
- .text._ZN5hwlib20_pin_out_dummy_class3setEbNS_9bufferingE
-                0x00000000        0x2 hwlib.o
- .text._ZNK5hwlib9image_8x818get_implementationENS_8locationE
-                0x00000000       0x44 hwlib.o
- .text._ZN5hwliblsERNS_7ostreamEx
-                0x00000000      0x102 hwlib.o
- .text._ZN5hwliblsERNS_7ostreamENS_8locationE
-                0x00000000       0x3c hwlib.o
- .text._ZN5hwlib6window5writeENS_8locationENS_5colorENS_9bufferingE
-                0x00000000       0x34 hwlib.o
- .text._ZN5hwlib4line4drawERNS_6windowENS_9bufferingE
-                0x00000000       0xa8 hwlib.o
- .text._ZN5hwlib6circle4drawERNS_6windowENS_9bufferingE
-                0x00000000      0x314 hwlib.o
- .text._ZN5hwlib4randEv
-                0x00000000       0x20 hwlib.o
- .text._ZN5hwlib15random_in_rangeEjj
-                0x00000000       0x1a hwlib.o
- .text._ZN3due11ad_pin_infoENS_7ad_pinsE
-                0x00000000       0x1c hwlib.o
- .text._ZN3due11ad_seq_infoEm
-                0x00000000       0x20 hwlib.o
- .text._ZN3due19uart_char_availableEv
-                0x00000000       0x18 hwlib.o
- .text._ZN3due9uart_getcEv
-                0x00000000       0x18 hwlib.o
- .text._ZN5hwlib19uart_char_availableEv
-                0x00000000        0x4 hwlib.o
- .text._ZN5hwlib19cin_using_uart_getc14char_availableEv
-                0x00000000        0x8 hwlib.o
- .text._ZN5hwlib9uart_getcEv
-                0x00000000        0x4 hwlib.o
- .text._ZN5hwlib19cin_using_uart_getc4getcEv
-                0x00000000        0x8 hwlib.o
- .text._ZN5hwlib9now_ticksEv
-                0x00000000        0x8 hwlib.o
- .text._ZN5hwlib12ticks_per_usEv
-                0x00000000        0x8 hwlib.o
- .text._ZN5hwlib7wait_usEi
-                0x00000000        0x4 hwlib.o
- .text._ZN5hwlib12wait_ns_busyEi
-                0x00000000       0x10 hwlib.o
- .text._ZN5hwlib7wait_nsEi
-                0x00000000        0x4 hwlib.o
- .text._ZN5hwlib24uart_getc_bit_banged_pinERNS_6pin_inE
-                0x00000000       0x76 hwlib.o
- .text._ZN5hwlib12wait_ms_busyEi
-                0x00000000       0x16 hwlib.o
- .text._ZN5hwlib7wait_msEi
-                0x00000000        0x4 hwlib.o
- .text._ZN5hwlib5blinkERNS_7pin_outEj
-                0x00000000       0x2c hwlib.o
- .text._ZN5hwlib4kittERNS_11port_in_outEj
-                0x00000000       0x58 hwlib.o
- .text._ZN5hwlib4kittERNS_8port_outEj
-                0x00000000       0x52 hwlib.o
- .text._ZN5hwlib4kittERNS_7port_ocEj
-                0x00000000       0x52 hwlib.o
- .text._ZN5hwlib21graphics_random_linesERNS_6windowEj
-                0x00000000       0xfc hwlib.o
- .text._ZN5hwlib23graphics_random_circlesERNS_6windowEj
-                0x00000000       0x7c hwlib.o
- .text._ZN5hwlib12dac_triangleERNS_3dacEj
-                0x00000000       0x36 hwlib.o
- .text._ZN5hwlib24uart_putc_bit_banged_pinEcRNS_7pin_outE
-                0x00000000       0x66 hwlib.o
- .rodata._ZTVN5hwlib19cin_using_uart_getcE
-                0x00000000       0x14 hwlib.o
- .rodata._ZTVN5hwlib23_pin_in_out_dummy_classE
-                0x00000000       0x20 hwlib.o
- .rodata._ZTVN5hwlib20_pin_out_dummy_classE
-                0x00000000       0x10 hwlib.o
- .rodata._ZTVN5hwlib9image_8x8E
-                0x00000000        0xc hwlib.o
- .rodata._ZTVN5hwlib4lineE
-                0x00000000        0xc hwlib.o
- .rodata._ZTVN5hwlib6circleE
-                0x00000000        0xc hwlib.o
- .bss._ZN5hwlib6stringILj0EE5dummyE
-                0x00000000        0x1 hwlib.o
- .bss._ZZN5hwlib4randEvE1n
-                0x00000000        0x4 hwlib.o
- .data._ZN5hwlib13pin_out_dummyE
-                0x00000000        0x4 hwlib.o
- .data._ZN5hwlib15font_16x16_dataE
-                0x00000000      0xbe4 hwlib.o
- .data._ZN5hwlib16pin_in_out_dummyE
-                0x00000000        0x4 hwlib.o
- .data._ZN5hwlib3cinE
-                0x00000000        0x4 hwlib.o
- .rodata._ZN5hwlib16font_default_8x86imagesE
-                0x00000000      0xa00 hwlib.o
- .rodata._ZN5hwlibL5blackE
-                0x00000000        0x4 hwlib.o
- .rodata._ZN5hwlibL5whiteE
-                0x00000000        0x4 hwlib.o
- .rodata._ZN5hwliblsERNS_7ostreamENS_8locationE.str1.1
-                0x00000000        0x6 hwlib.o
- .rodata._ZZN3due11ad_pin_infoENS_7ad_pinsEE17ad_pin_info_array
-                0x00000000        0xc hwlib.o
- .rodata._ZZN3due11ad_seq_infoEmE12ad_seq_array
-                0x00000000       0x70 hwlib.o
  .data          0x00000000        0x0 switch_to.o
  .bss           0x00000000        0x0 switch_to.o
- .group         0x00000000        0x8 coroutine.o
+ .group         0x00000000        0xc coroutine.o
  .text          0x00000000        0x0 coroutine.o
  .data          0x00000000        0x0 coroutine.o
  .bss           0x00000000        0x0 coroutine.o
- .text._ZN6sam3xa10SystemInitEv
-                0x00000000       0x7c coroutine.o
- .text._ZN3due8pin_infoENS_4pinsE
-                0x00000000       0x20 coroutine.o
  .text._ZN3due11ad_pin_infoENS_7ad_pinsE
                 0x00000000       0x1c coroutine.o
  .text._ZN3due11ad_seq_infoEm
                 0x00000000       0x20 coroutine.o
- .text._ZN3due14port_registersEm
-                0x00000000       0x48 coroutine.o
- .text._ZN3due12ticks_per_usEv
-                0x00000000        0x6 coroutine.o
- .text._ZN3due9now_ticksEv
-                0x00000000       0x74 coroutine.o
- .text._ZN5hwlib9uart_putcEc
-                0x00000000        0x4 coroutine.o
  .text._ZN5hwlib19uart_char_availableEv
                 0x00000000        0x4 coroutine.o
  .text._ZN5hwlib9uart_getcEv
                 0x00000000        0x4 coroutine.o
- .bss._ZZN3due9now_ticksEvE4high
-                0x00000000        0x8 coroutine.o
- .bss._ZZN3due9now_ticksEvE8last_low
-                0x00000000        0x4 coroutine.o
- .bss._ZZN3due9now_ticksEvE9init_done
-                0x00000000        0x1 coroutine.o
- .data._ZN6sam3xa15SystemCoreClockE
-                0x00000000        0x4 coroutine.o
- .rodata._ZN3due8pin_infoENS_4pinsE.str1.1
-                0x00000000       0x33 coroutine.o
  .rodata._ZZN3due11ad_pin_infoENS_7ad_pinsEE17ad_pin_info_array
                 0x00000000        0xc coroutine.o
  .rodata._ZZN3due11ad_seq_infoEmE12ad_seq_array
                 0x00000000       0x70 coroutine.o
- .rodata._ZZN3due8pin_infoENS_4pinsEE14pin_info_array
-                0x00000000       0xa4 coroutine.o
  .group         0x00000000        0x8 rtos.o
  .group         0x00000000        0x8 rtos.o
- .group         0x00000000        0x8 rtos.o
- .group         0x00000000        0x8 rtos.o
- .group         0x00000000        0x8 rtos.o
- .group         0x00000000        0x8 rtos.o
- .group         0x00000000        0x8 rtos.o
- .group         0x00000000        0x8 rtos.o
- .group         0x00000000        0x8 rtos.o
- .group         0x00000000        0x8 rtos.o
- .group         0x00000000        0x8 rtos.o
- .group         0x00000000        0x8 rtos.o
- .group         0x00000000        0x8 rtos.o
- .group         0x00000000        0x8 rtos.o
+ .group         0x00000000        0xc rtos.o
+ .group         0x00000000        0xc rtos.o
+ .group         0x00000000        0xc rtos.o
+ .group         0x00000000        0xc rtos.o
+ .group         0x00000000        0xc rtos.o
+ .group         0x00000000        0xc rtos.o
+ .group         0x00000000        0xc rtos.o
+ .group         0x00000000        0xc rtos.o
+ .group         0x00000000        0xc rtos.o
+ .group         0x00000000        0xc rtos.o
+ .group         0x00000000        0xc rtos.o
+ .group         0x00000000        0xc rtos.o
  .text          0x00000000        0x0 rtos.o
  .data          0x00000000        0x0 rtos.o
  .bss           0x00000000        0x0 rtos.o
  .text._ZN4rtos8callback6cancelEv
                 0x00000000        0xa rtos.o
- .text._ZN5hwlib7ostream7reverse10add_prefixERKS0_.part.1
+ .text._ZN5hwlib7ostream7reverse10add_prefixERKS0_.part.2
                 0x00000000       0x4c rtos.o
- .text._ZN5hwliblsERNS_7ostreamEPKc
-                0x00000000       0x66 rtos.o
  .text._ZN5hwliblsERNS_7ostreamEi
                 0x00000000       0x92 rtos.o
  .text._ZN5hwliblsERNS_7ostreamEx
@@ -251,11 +70,11 @@ Discarded input sections
  .text._ZN3due11ad_seq_infoEm
                 0x00000000       0x20 rtos.o
  .text._ZN3due14port_registersEm
-                0x00000000       0x48 rtos.o
+                0x00000000       0x54 rtos.o
  .text._ZN3due12ticks_per_usEv
                 0x00000000        0x6 rtos.o
  .text._ZN3due9now_ticksEv
-                0x00000000       0x74 rtos.o
+                0x00000000       0x80 rtos.o
  .text._ZN5hwlib9uart_putcEc
                 0x00000000        0x4 rtos.o
  .text._ZN5hwlib19uart_char_availableEv
@@ -496,6 +315,968 @@ Discarded input sections
                 0x00000000       0x70 rtos.o
  .rodata._ZZN3due8pin_infoENS_4pinsEE14pin_info_array
                 0x00000000       0xa4 rtos.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0x8 hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .group         0x00000000        0xc hwlib.o
+ .text          0x00000000        0x0 hwlib.o
+ .data          0x00000000        0x0 hwlib.o
+ .bss           0x00000000        0x0 hwlib.o
+ .text._ZN5hwlib18pin_in_out_dummy_t5writeEb
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib18pin_in_out_dummy_t4readEv
+                0x00000000        0x4 hwlib.o
+ .text._ZN5hwlib18pin_in_out_dummy_t19direction_set_inputEv
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib18pin_in_out_dummy_t20direction_set_outputEv
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib18pin_in_out_dummy_t5flushEv
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib18pin_in_out_dummy_t7refreshEv
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib18pin_in_out_dummy_t15direction_flushEv
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib15pin_out_dummy_t5writeEb
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib15pin_out_dummy_t5flushEv
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib17pin_out_from_oc_t5writeEb
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib17pin_out_from_oc_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib18pin_out_from_out_t5writeEb
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib18pin_out_from_out_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib21pin_out_from_in_out_t5writeEb
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib21pin_out_from_in_out_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib16pin_in_from_oc_t4readEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib16pin_in_from_oc_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib16pin_in_from_in_t4readEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib16pin_in_from_in_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib20pin_in_from_in_out_t4readEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib20pin_in_from_in_out_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib20pin_in_out_from_oc_t19direction_set_inputEv
+                0x00000000        0xe hwlib.o
+ .text._ZN5hwlib20pin_in_out_from_oc_t20direction_set_outputEv
+                0x00000000        0x6 hwlib.o
+ .text._ZN5hwlib20pin_in_out_from_oc_t4readEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib20pin_in_out_from_oc_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib20pin_in_out_from_oc_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib20pin_in_out_from_oc_t15direction_flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib24pin_in_out_from_in_out_t19direction_set_inputEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib24pin_in_out_from_in_out_t20direction_set_outputEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib24pin_in_out_from_in_out_t4readEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib24pin_in_out_from_in_out_t5writeEb
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib24pin_in_out_from_in_out_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib24pin_in_out_from_in_out_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib24pin_in_out_from_in_out_t15direction_flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib16pin_oc_from_oc_t4readEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib16pin_oc_from_oc_t5writeEb
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib16pin_oc_from_oc_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib16pin_oc_from_oc_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib20pin_oc_from_in_out_t4readEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib20pin_oc_from_in_out_t5flushEv
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib20pin_oc_from_in_out_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib21pin_invert_from_out_t5writeEb
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib21pin_invert_from_out_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib20pin_invert_from_in_t4readEv
+                0x00000000       0x12 hwlib.o
+ .text._ZN5hwlib20pin_invert_from_in_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib24pin_invert_from_in_out_t4readEv
+                0x00000000       0x12 hwlib.o
+ .text._ZN5hwlib24pin_invert_from_in_out_t5writeEb
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib24pin_invert_from_in_out_t19direction_set_inputEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib24pin_invert_from_in_out_t20direction_set_outputEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib24pin_invert_from_in_out_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib24pin_invert_from_in_out_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib24pin_invert_from_in_out_t15direction_flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib20pin_invert_from_oc_t4readEv
+                0x00000000       0x12 hwlib.o
+ .text._ZN5hwlib20pin_invert_from_oc_t5writeEb
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib20pin_invert_from_oc_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib20pin_invert_from_oc_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib18all_from_pin_out_t5writeEb
+                0x00000000       0x1e hwlib.o
+ .text._ZN5hwlib18all_from_pin_out_t5flushEv
+                0x00000000       0x1a hwlib.o
+ .text._ZN5hwlib24pin_direct_from_in_out_t5writeEb
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib24pin_direct_from_in_out_t4readEv
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib24pin_direct_from_in_out_t19direction_set_inputEv
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib24pin_direct_from_in_out_t20direction_set_outputEv
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib24pin_direct_from_in_out_t5flushEv
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib24pin_direct_from_in_out_t7refreshEv
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib24pin_direct_from_in_out_t15direction_flushEv
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib20pin_direct_from_in_t4readEv
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib20pin_direct_from_in_t7refreshEv
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib21pin_direct_from_out_t5writeEb
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib21pin_direct_from_out_t5flushEv
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib20pin_direct_from_oc_t5writeEb
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib20pin_direct_from_oc_t4readEv
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib20pin_direct_from_oc_t5flushEv
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib20pin_direct_from_oc_t7refreshEv
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib18port_out_from_oc_t14number_of_pinsEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib18port_out_from_oc_t5writeEj
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib18port_out_from_oc_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib19port_out_from_out_t14number_of_pinsEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib19port_out_from_out_t5writeEj
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib19port_out_from_out_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib22port_out_from_in_out_t14number_of_pinsEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib22port_out_from_in_out_t5writeEj
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib22port_out_from_in_out_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib17port_in_from_oc_t14number_of_pinsEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib17port_in_from_oc_t4readEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib17port_in_from_oc_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib17port_in_from_in_t14number_of_pinsEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib17port_in_from_in_t4readEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib17port_in_from_in_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib21port_in_from_in_out_t14number_of_pinsEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib21port_in_from_in_out_t4readEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib21port_in_from_in_out_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib21port_in_out_from_oc_t14number_of_pinsEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib21port_in_out_from_oc_t19direction_set_inputEv
+                0x00000000        0xe hwlib.o
+ .text._ZN5hwlib21port_in_out_from_oc_t20direction_set_outputEv
+                0x00000000        0x6 hwlib.o
+ .text._ZN5hwlib21port_in_out_from_oc_t4readEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib21port_in_out_from_oc_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib21port_in_out_from_oc_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib21port_in_out_from_oc_t15direction_flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib25port_in_out_from_in_out_t14number_of_pinsEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib25port_in_out_from_in_out_t19direction_set_inputEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib25port_in_out_from_in_out_t20direction_set_outputEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib25port_in_out_from_in_out_t4readEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib25port_in_out_from_in_out_t5writeEj
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib25port_in_out_from_in_out_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib25port_in_out_from_in_out_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib25port_in_out_from_in_out_t15direction_flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib17port_oc_from_oc_t14number_of_pinsEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib17port_oc_from_oc_t4readEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib17port_oc_from_oc_t5writeEj
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib17port_oc_from_oc_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib17port_oc_from_oc_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib23port_in_out_from_pins_t14number_of_pinsEv
+                0x00000000        0x4 hwlib.o
+ .text._ZN5hwlib23port_in_out_from_pins_t19direction_set_inputEv
+                0x00000000       0x20 hwlib.o
+ .text._ZN5hwlib23port_in_out_from_pins_t20direction_set_outputEv
+                0x00000000       0x20 hwlib.o
+ .text._ZN5hwlib23port_in_out_from_pins_t15direction_flushEv
+                0x00000000       0x20 hwlib.o
+ .text._ZN5hwlib23port_in_out_from_pins_t4readEv
+                0x00000000       0x2a hwlib.o
+ .text._ZN5hwlib23port_in_out_from_pins_t7refreshEv
+                0x00000000       0x20 hwlib.o
+ .text._ZN5hwlib23port_in_out_from_pins_t5writeEj
+                0x00000000       0x28 hwlib.o
+ .text._ZN5hwlib23port_in_out_from_pins_t5flushEv
+                0x00000000       0x20 hwlib.o
+ .text._ZN5hwlib20port_out_from_pins_t14number_of_pinsEv
+                0x00000000        0x4 hwlib.o
+ .text._ZN5hwlib20port_out_from_pins_t5writeEj
+                0x00000000       0x28 hwlib.o
+ .text._ZN5hwlib20port_out_from_pins_t5flushEv
+                0x00000000       0x20 hwlib.o
+ .text._ZN5hwlib23port_out_from_pins_oc_t14number_of_pinsEv
+                0x00000000        0x4 hwlib.o
+ .text._ZN5hwlib23port_out_from_pins_oc_t5writeEj
+                0x00000000       0x28 hwlib.o
+ .text._ZN5hwlib23port_out_from_pins_oc_t5flushEv
+                0x00000000       0x20 hwlib.o
+ .text._ZN5hwlib25port_invert_from_in_out_t19direction_set_inputEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib25port_invert_from_in_out_t20direction_set_outputEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib25port_invert_from_in_out_t14number_of_pinsEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib25port_invert_from_in_out_t4readEv
+                0x00000000        0xe hwlib.o
+ .text._ZN5hwlib25port_invert_from_in_out_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib25port_invert_from_in_out_t5writeEj
+                0x00000000        0xa hwlib.o
+ .text._ZN5hwlib25port_invert_from_in_out_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib25port_invert_from_in_out_t15direction_flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib21port_invert_from_in_t14number_of_pinsEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib21port_invert_from_in_t4readEv
+                0x00000000        0xe hwlib.o
+ .text._ZN5hwlib21port_invert_from_in_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib22port_invert_from_out_t14number_of_pinsEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib22port_invert_from_out_t5writeEj
+                0x00000000        0xa hwlib.o
+ .text._ZN5hwlib22port_invert_from_out_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib21port_invert_from_oc_t14number_of_pinsEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib21port_invert_from_oc_t4readEv
+                0x00000000        0xe hwlib.o
+ .text._ZN5hwlib21port_invert_from_oc_t7refreshEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib21port_invert_from_oc_t5writeEj
+                0x00000000        0xa hwlib.o
+ .text._ZN5hwlib21port_invert_from_oc_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib19all_from_port_out_t5writeEb
+                0x00000000       0x12 hwlib.o
+ .text._ZN5hwlib19all_from_port_out_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib25port_direct_from_in_out_t14number_of_pinsEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib25port_direct_from_in_out_t5writeEj
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib25port_direct_from_in_out_t4readEv
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib25port_direct_from_in_out_t19direction_set_inputEv
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib25port_direct_from_in_out_t20direction_set_outputEv
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib25port_direct_from_in_out_t5flushEv
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib25port_direct_from_in_out_t7refreshEv
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib25port_direct_from_in_out_t15direction_flushEv
+                0x00000000        0x2 hwlib.o
+ .text._ZN5hwlib22port_direct_from_out_t14number_of_pinsEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib22port_direct_from_out_t5writeEj
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib22port_direct_from_out_t5flushEv
+                0x00000000        0x2 hwlib.o
+ .text._ZNK5hwlib9image_8x819read_implementationENS_2xyE
+                0x00000000       0x44 hwlib.o
+ .text._ZN5hwlib13window_part_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib15window_invert_t5flushEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib20pin_in_out_from_oc_t5writeEb
+                0x00000000        0xe hwlib.o
+ .text._ZN5hwlib20pin_oc_from_in_out_t5writeEb
+                0x00000000       0x26 hwlib.o
+ .text._ZN5hwlib21port_in_out_from_oc_t5writeEj
+                0x00000000        0xe hwlib.o
+ .text._ZN5hwlib6window20clear_implementationENS_5colorE
+                0x00000000       0x72 hwlib.o
+ .text._ZN5hwlib6window5clearENS_5colorE
+                0x00000000       0x56 hwlib.o
+ .text._ZNK5hwlib5colorngEv
+                0x00000000       0x2e hwlib.o
+ .text._ZN5hwlib4randEv
+                0x00000000       0x1c hwlib.o
+ .text._ZN5hwlib9random_inEjj
+                0x00000000       0x1a hwlib.o
+ .text._ZN5hwlib9random_inERKNS_2xyE
+                0x00000000       0x24 hwlib.o
+ .text._ZN5hwlib21pin_out_from_in_out_tC2ERNS_10pin_in_outE
+                0x00000000       0x24 hwlib.o
+ .text._ZN5hwlib12pin_out_fromERNS_6pin_ocE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib12pin_out_fromERNS_7pin_outE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib12pin_out_fromERNS_10pin_in_outE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib11pin_in_fromERNS_6pin_inE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib11pin_in_fromERNS_10pin_in_outE
+                0x00000000       0x24 hwlib.o
+ .text._ZN5hwlib11pin_in_fromERNS_6pin_ocE
+                0x00000000       0x28 hwlib.o
+ .text._ZN5hwlib15pin_in_out_fromERNS_6pin_ocE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib15pin_in_out_fromERNS_10pin_in_outE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib11pin_oc_fromERNS_6pin_ocE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib11pin_oc_fromERNS_10pin_in_outE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib6invertERNS_7pin_outE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib6invertERNS_6pin_inE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib6invertERNS_10pin_in_outE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib6invertERNS_6pin_ocE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib3allERNS_7pin_outES1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_
+                0x00000000       0x48 hwlib.o
+ .text._ZN5hwlib6directERNS_7pin_outE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib6directERNS_6pin_inE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib6directERNS_10pin_in_outE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib6directERNS_6pin_ocE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib22port_out_from_in_out_tC2ERNS_11port_in_outE
+                0x00000000       0x24 hwlib.o
+ .text._ZN5hwlib13port_out_fromERNS_7port_ocE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib13port_out_fromERNS_8port_outE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib13port_out_fromERNS_11port_in_outE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib12port_in_fromERNS_7port_inE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib12port_in_fromERNS_11port_in_outE
+                0x00000000       0x24 hwlib.o
+ .text._ZN5hwlib12port_in_fromERNS_7port_ocE
+                0x00000000       0x28 hwlib.o
+ .text._ZN5hwlib16port_in_out_fromERNS_7port_ocE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib16port_in_out_fromERNS_11port_in_outE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib12port_oc_fromERNS_7port_ocE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib16port_in_out_fromERNS_10pin_in_outES1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_
+                0x00000000       0x68 hwlib.o
+ .text._ZN5hwlib13port_out_fromERNS_6pin_ocES1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_
+                0x00000000       0x68 hwlib.o
+ .text._ZN5hwlib13port_out_fromERNS_7pin_outES1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_
+                0x00000000       0x68 hwlib.o
+ .text._ZN5hwlib6invertERNS_8port_outE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib6invertERNS_7port_inE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib6invertERNS_11port_in_outE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib6invertERNS_7port_ocE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib3allERNS_8port_outE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib6directERNS_8port_outE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib6directERNS_7port_inE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib6directERNS_11port_in_outE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib6directERNS_7port_ocE
+                0x00000000        0xc hwlib.o
+ .text._ZN5hwlib7ostreamlsEc
+                0x00000000        0xe hwlib.o
+ .text._ZN5hwliblsERNS_7ostreamEPKc
+                0x00000000       0x66 hwlib.o
+ .text._ZN5hwliblsERNS_7ostreamEi
+                0x00000000       0xce hwlib.o
+ .text._ZN5hwlib6strlenEPKc
+                0x00000000       0x10 hwlib.o
+ .text._ZN5hwlib8test_endEv
+                0x00000000       0x58 hwlib.o
+ .text._ZNK5hwlib5image4readENS_2xyE
+                0x00000000       0x3a hwlib.o
+ .text._ZNK5hwlib16image_mirror_y_t19read_implementationENS_2xyE
+                0x00000000       0x44 hwlib.o
+ .text._ZNK5hwlib16image_mirror_x_t19read_implementationENS_2xyE
+                0x00000000       0x46 hwlib.o
+ .text._ZNK5hwlib17image_transpose_t19read_implementationENS_2xyE
+                0x00000000       0x3e hwlib.o
+ .text._ZNK5hwlib14image_invert_t19read_implementationENS_2xyE
+                0x00000000       0x64 hwlib.o
+ .text._ZNK5hwlib12image_part_t19read_implementationENS_2xyE
+                0x00000000       0x4c hwlib.o
+ .text._ZN5hwlib4partERKNS_5imageENS_2xyES3_
+                0x00000000       0x28 hwlib.o
+ .text._ZN5hwlib6invertERKNS_5imageE
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib9transposeERKNS_5imageE
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib8mirror_xERKNS_5imageE
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib8mirror_yERKNS_5imageE
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib6window5writeENS_2xyENS_5colorE
+                0x00000000       0x5c hwlib.o
+ .text._ZN5hwlib15window_invert_t20write_implementationENS_2xyENS_5colorE
+                0x00000000       0x28 hwlib.o
+ .text._ZN5hwlib13window_part_t20write_implementationENS_2xyENS_5colorE
+                0x00000000       0x2e hwlib.o
+ .text._ZN5hwlib6circle4drawERNS_6windowE
+                0x00000000      0x174 hwlib.o
+ .text._ZN5hwlib4line4drawERNS_6windowE
+                0x00000000       0xa2 hwlib.o
+ .text._ZN5hwlib4partERNS_6windowENS_2xyES2_
+                0x00000000       0x5c hwlib.o
+ .text._ZN5hwlib6invertERNS_6windowE
+                0x00000000       0x68 hwlib.o
+ .text._ZN6sam3xa10SystemInitEv
+                0x00000000       0x7c hwlib.o
+ .text._ZN3due8pin_infoENS_4pinsE
+                0x00000000       0x20 hwlib.o
+ .text._ZN3due11ad_pin_infoENS_7ad_pinsE
+                0x00000000       0x1c hwlib.o
+ .text._ZN3due11ad_seq_infoEm
+                0x00000000       0x20 hwlib.o
+ .text._ZN3due14port_registersEm
+                0x00000000       0x54 hwlib.o
+ .text._ZN3due12ticks_per_usEv
+                0x00000000        0x6 hwlib.o
+ .text._ZN3due9now_ticksEv
+                0x00000000       0x80 hwlib.o
+ .text._ZN3due19uart_char_availableEv
+                0x00000000       0x18 hwlib.o
+ .text._ZN3due9uart_getcEv
+                0x00000000       0x1c hwlib.o
+ .text._ZN5hwlib9uart_putcEc
+                0x00000000        0x4 hwlib.o
+ .text._ZN5hwlib19uart_char_availableEv
+                0x00000000        0x4 hwlib.o
+ .text._ZN5hwlib19cin_using_uart_getc14char_availableEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib9uart_getcEv
+                0x00000000        0x4 hwlib.o
+ .text._ZN5hwlib19cin_using_uart_getc4getcEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib9now_ticksEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib12ticks_per_usEv
+                0x00000000        0x8 hwlib.o
+ .text._ZN5hwlib24uart_putc_bit_banged_pinEcRNS_7pin_outE
+                0x00000000       0x5e hwlib.o
+ .text._ZN5hwlib12wait_ns_busyEi
+                0x00000000       0x10 hwlib.o
+ .text._ZN5hwlib12wait_ms_busyEi
+                0x00000000       0x16 hwlib.o
+ .text._ZN5hwlib7wait_usEi
+                0x00000000       0x22 hwlib.o
+ .text._ZN5hwlib7wait_nsEi
+                0x00000000       0x14 hwlib.o
+ .text._ZN5hwlib24uart_getc_bit_banged_pinERNS_6pin_inE
+                0x00000000       0x72 hwlib.o
+ .text._ZN5hwlib7wait_msEi
+                0x00000000       0x16 hwlib.o
+ .text._ZN5hwlib5blinkERNS_7pin_outEj
+                0x00000000       0x38 hwlib.o
+ .text._ZN5hwlib5blinkERNS_10pin_in_outEj
+                0x00000000       0x14 hwlib.o
+ .text._ZN5hwlib5blinkERNS_6pin_ocEj
+                0x00000000       0x14 hwlib.o
+ .text._ZN5hwlib5blinkERNS_7pin_outEjj
+                0x00000000       0x42 hwlib.o
+ .text._ZN5hwlib5blinkERNS_6pin_ocEjj
+                0x00000000       0x18 hwlib.o
+ .text._ZN5hwlib5blinkERNS_10pin_in_outEjj
+                0x00000000       0x1c hwlib.o
+ .text._ZN5hwlib4kittERNS_8port_outEj
+                0x00000000       0x50 hwlib.o
+ .text._ZN5hwlib4kittERNS_11port_in_outEj
+                0x00000000       0x14 hwlib.o
+ .text._ZN5hwlib4kittERNS_7port_ocEj
+                0x00000000       0x14 hwlib.o
+ .text._ZN5hwlib5snakeERNS_8port_outEj
+                0x00000000       0x30 hwlib.o
+ .text._ZN5hwlib5snakeERNS_11port_in_outEj
+                0x00000000       0x14 hwlib.o
+ .text._ZN5hwlib5snakeERNS_7port_ocEj
+                0x00000000       0x14 hwlib.o
+ .text._ZN5hwlib14scrolling_textERNS_8terminalEPKcjjj
+                0x00000000       0x64 hwlib.o
+ .text._ZN5hwlib12dac_triangleERNS_3dacEj
+                0x00000000       0x36 hwlib.o
+ .text._ZN5hwlib21graphics_random_linesERNS_6windowEjRKNS_5colorE
+                0x00000000       0x88 hwlib.o
+ .text._ZN5hwlib23graphics_random_circlesERNS_6windowEjRKNS_5colorE
+                0x00000000       0x90 hwlib.o
+ .rodata._ZTVN5hwlib18pin_in_out_dummy_tE
+                0x00000000       0x24 hwlib.o
+ .rodata._ZTVN5hwlib15pin_out_dummy_tE
+                0x00000000       0x10 hwlib.o
+ .rodata._ZTVN5hwlib17pin_out_from_oc_tE
+                0x00000000       0x10 hwlib.o
+ .rodata._ZTVN5hwlib18pin_out_from_out_tE
+                0x00000000       0x10 hwlib.o
+ .rodata._ZTVN5hwlib21pin_out_from_in_out_tE
+                0x00000000       0x10 hwlib.o
+ .rodata._ZTVN5hwlib16pin_in_from_oc_tE
+                0x00000000       0x10 hwlib.o
+ .rodata._ZTVN5hwlib16pin_in_from_in_tE
+                0x00000000       0x10 hwlib.o
+ .rodata._ZTVN5hwlib20pin_in_from_in_out_tE
+                0x00000000       0x10 hwlib.o
+ .rodata._ZTVN5hwlib20pin_in_out_from_oc_tE
+                0x00000000       0x24 hwlib.o
+ .rodata._ZTVN5hwlib24pin_in_out_from_in_out_tE
+                0x00000000       0x24 hwlib.o
+ .rodata._ZTVN5hwlib16pin_oc_from_oc_tE
+                0x00000000       0x18 hwlib.o
+ .rodata._ZTVN5hwlib20pin_oc_from_in_out_tE
+                0x00000000       0x18 hwlib.o
+ .rodata._ZTVN5hwlib21pin_invert_from_out_tE
+                0x00000000       0x10 hwlib.o
+ .rodata._ZTVN5hwlib20pin_invert_from_in_tE
+                0x00000000       0x10 hwlib.o
+ .rodata._ZTVN5hwlib24pin_invert_from_in_out_tE
+                0x00000000       0x24 hwlib.o
+ .rodata._ZTVN5hwlib20pin_invert_from_oc_tE
+                0x00000000       0x18 hwlib.o
+ .rodata._ZTVN5hwlib18all_from_pin_out_tE
+                0x00000000       0x10 hwlib.o
+ .rodata._ZTVN5hwlib24pin_direct_from_in_out_tE
+                0x00000000       0x24 hwlib.o
+ .rodata._ZTVN5hwlib20pin_direct_from_in_tE
+                0x00000000       0x10 hwlib.o
+ .rodata._ZTVN5hwlib21pin_direct_from_out_tE
+                0x00000000       0x10 hwlib.o
+ .rodata._ZTVN5hwlib20pin_direct_from_oc_tE
+                0x00000000       0x18 hwlib.o
+ .rodata._ZTVN5hwlib18port_out_from_oc_tE
+                0x00000000       0x14 hwlib.o
+ .rodata._ZTVN5hwlib19port_out_from_out_tE
+                0x00000000       0x14 hwlib.o
+ .rodata._ZTVN5hwlib22port_out_from_in_out_tE
+                0x00000000       0x14 hwlib.o
+ .rodata._ZTVN5hwlib17port_in_from_oc_tE
+                0x00000000       0x14 hwlib.o
+ .rodata._ZTVN5hwlib17port_in_from_in_tE
+                0x00000000       0x14 hwlib.o
+ .rodata._ZTVN5hwlib21port_in_from_in_out_tE
+                0x00000000       0x14 hwlib.o
+ .rodata._ZTVN5hwlib21port_in_out_from_oc_tE
+                0x00000000       0x28 hwlib.o
+ .rodata._ZTVN5hwlib25port_in_out_from_in_out_tE
+                0x00000000       0x28 hwlib.o
+ .rodata._ZTVN5hwlib17port_oc_from_oc_tE
+                0x00000000       0x1c hwlib.o
+ .rodata._ZTVN5hwlib23port_in_out_from_pins_tE
+                0x00000000       0x28 hwlib.o
+ .rodata._ZTVN5hwlib20port_out_from_pins_tE
+                0x00000000       0x14 hwlib.o
+ .rodata._ZTVN5hwlib23port_out_from_pins_oc_tE
+                0x00000000       0x14 hwlib.o
+ .rodata._ZTVN5hwlib25port_invert_from_in_out_tE
+                0x00000000       0x28 hwlib.o
+ .rodata._ZTVN5hwlib21port_invert_from_in_tE
+                0x00000000       0x14 hwlib.o
+ .rodata._ZTVN5hwlib22port_invert_from_out_tE
+                0x00000000       0x14 hwlib.o
+ .rodata._ZTVN5hwlib21port_invert_from_oc_tE
+                0x00000000       0x1c hwlib.o
+ .rodata._ZTVN5hwlib19all_from_port_out_tE
+                0x00000000       0x10 hwlib.o
+ .rodata._ZTVN5hwlib25port_direct_from_in_out_tE
+                0x00000000       0x28 hwlib.o
+ .rodata._ZTVN5hwlib22port_direct_from_out_tE
+                0x00000000       0x14 hwlib.o
+ .rodata._ZTVN5hwlib19cin_using_uart_getcE
+                0x00000000       0x14 hwlib.o
+ .rodata._ZTVN5hwlib9image_8x8E
+                0x00000000        0xc hwlib.o
+ .rodata._ZTVN5hwlib12image_part_tE
+                0x00000000        0xc hwlib.o
+ .rodata._ZTVN5hwlib14image_invert_tE
+                0x00000000        0xc hwlib.o
+ .rodata._ZTVN5hwlib17image_transpose_tE
+                0x00000000        0xc hwlib.o
+ .rodata._ZTVN5hwlib16image_mirror_x_tE
+                0x00000000        0xc hwlib.o
+ .rodata._ZTVN5hwlib16image_mirror_y_tE
+                0x00000000        0xc hwlib.o
+ .rodata._ZTVN5hwlib4lineE
+                0x00000000        0xc hwlib.o
+ .rodata._ZTVN5hwlib6circleE
+                0x00000000        0xc hwlib.o
+ .rodata._ZTVN5hwlib13window_part_tE
+                0x00000000       0x18 hwlib.o
+ .rodata._ZTVN5hwlib15window_invert_tE
+                0x00000000       0x18 hwlib.o
+ .bss._ZN5hwlib11string_base5dummyE
+                0x00000000        0x1 hwlib.o
+ .bss._ZN5hwlib18_equal_calls_countE
+                0x00000000        0x4 hwlib.o
+ .bss._ZN5hwlib18random_chain_valueE
+                0x00000000        0x4 hwlib.o
+ .bss._ZN5hwlib21_equal_failures_countE
+                0x00000000        0x4 hwlib.o
+ .bss._ZZN3due9now_ticksEvE4high
+                0x00000000        0x8 hwlib.o
+ .bss._ZZN3due9now_ticksEvE8last_low
+                0x00000000        0x4 hwlib.o
+ .bss._ZZN3due9now_ticksEvE9init_done
+                0x00000000        0x1 hwlib.o
+ .data._ZN5hwlib13pin_out_dummyE
+                0x00000000        0x4 hwlib.o
+ .data._ZN5hwlib16pin_in_out_dummyE
+                0x00000000        0x4 hwlib.o
+ .data._ZN5hwlib3cinE
+                0x00000000        0x4 hwlib.o
+ .data._ZN6sam3xa15SystemCoreClockE
+                0x00000000        0x4 hwlib.o
+ .rodata._ZN3due8pin_infoENS_4pinsE.str1.1
+                0x00000000       0x33 hwlib.o
+ .rodata._ZN5hwlib15font_16x16_dataE
+                0x00000000      0xbe4 hwlib.o
+ .rodata._ZN5hwlib16font_default_8x86imagesE
+                0x00000000      0xa00 hwlib.o
+ .rodata._ZN5hwlib8test_endEv.str1.1
+                0x00000000       0x54 hwlib.o
+ .rodata._ZN5hwlibL11unspecifiedE
+                0x00000000        0x4 hwlib.o
+ .rodata._ZN5hwlibL5blackE
+                0x00000000        0x4 hwlib.o
+ .rodata._ZN5hwlibL5whiteE
+                0x00000000        0x4 hwlib.o
+ .rodata._ZZN3due11ad_pin_infoENS_7ad_pinsEE17ad_pin_info_array
+                0x00000000        0xc hwlib.o
+ .rodata._ZZN3due11ad_seq_infoEmE12ad_seq_array
+                0x00000000       0x70 hwlib.o
+ .rodata._ZZN3due8pin_infoENS_4pinsEE14pin_info_array
+                0x00000000       0xa4 hwlib.o
  .group         0x00000000        0x8 main.o
  .group         0x00000000        0x8 main.o
  .group         0x00000000        0x8 main.o
@@ -513,33 +1294,44 @@ Discarded input sections
  .group         0x00000000        0x8 main.o
  .group         0x00000000        0x8 main.o
  .group         0x00000000        0x8 main.o
+ .group         0x00000000        0xc main.o
  .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
- .text._ZN5hwlib6pin_in7refreshEv
+ .text._ZN5hwlib21port_direct_from_in_t14number_of_pinsEv
+                0x00000000        0x8 main.o
+ .text._ZN5hwlib21port_direct_from_in_t4readEv
+                0x00000000       0x18 main.o
+ .text._ZN5hwlib21port_direct_from_in_t7refreshEv
                 0x00000000        0x2 main.o
- .text._ZN5hwlib7pin_out5flushEv
+ .text._ZN5hwlib21port_direct_from_oc_t14number_of_pinsEv
+                0x00000000        0x8 main.o
+ .text._ZN5hwlib21port_direct_from_oc_t5writeEj
+                0x00000000       0x18 main.o
+ .text._ZN5hwlib21port_direct_from_oc_t4readEv
+                0x00000000       0x18 main.o
+ .text._ZN5hwlib21port_direct_from_oc_t5flushEv
                 0x00000000        0x2 main.o
- .text._ZN5hwlib6pin_oc7refreshEv
-                0x00000000        0x2 main.o
- .text._ZN5hwlib6pin_oc5flushEv
+ .text._ZN5hwlib21port_direct_from_oc_t7refreshEv
                 0x00000000        0x2 main.o
  .text._ZN5hwlib7istream11getc_nowaitEv
                 0x00000000       0x1a main.o
- .text._ZN3due7pin_out3setEbN5hwlib9bufferingE
+ .text._ZN3due7pin_out5writeEb
                 0x00000000        0xe main.o
+ .text._ZN3due7pin_out5flushEv
+                0x00000000        0x2 main.o
  .text._ZN5hwlib7ostreamlsEc
                 0x00000000        0xe main.o
  .text._ZN5hwliblsERNS_7ostreamEPKc
@@ -553,11 +1345,11 @@ Discarded input sections
  .text._ZN3due11ad_seq_infoEm
                 0x00000000       0x20 main.o
  .text._ZN3due14port_registersEm
-                0x00000000       0x48 main.o
+                0x00000000       0x54 main.o
  .text._ZN3due12ticks_per_usEv
                 0x00000000        0x6 main.o
  .text._ZN3due9now_ticksEv
-                0x00000000       0x74 main.o
+                0x00000000       0x80 main.o
  .text._ZN5hwlib9uart_putcEc
                 0x00000000        0x4 main.o
  .text._ZN5hwlib19uart_char_availableEv
@@ -565,7 +1357,11 @@ Discarded input sections
  .text._ZN5hwlib9uart_getcEv
                 0x00000000        0x4 main.o
  .text._Z11test_toggleRN5hwlib7istreamERNS_7pin_outE
-                0x00000000       0x22 main.o
+                0x00000000       0x28 main.o
+ .rodata._ZTVN5hwlib21port_direct_from_in_tE
+                0x00000000       0x14 main.o
+ .rodata._ZTVN5hwlib21port_direct_from_oc_tE
+                0x00000000       0x1c main.o
  .bss._ZZN3due9now_ticksEvE4high
                 0x00000000        0x8 main.o
  .bss._ZZN3due9now_ticksEvE8last_low
@@ -599,27 +1395,21 @@ Discarded input sections
                 0x00000000        0x4 bmptk_heap_bmptk.o
  .data._last_free
                 0x00000000        0x4 bmptk_heap_bmptk.o
- .comment       0x00000000       0x12 bmptk_heap_bmptk.o
+ .comment       0x00000000       0x7f bmptk_heap_bmptk.o
  .text          0x00000000        0x0 bmptk_fixed_size_stack.o
  .data          0x00000000        0x0 bmptk_fixed_size_stack.o
  .bss           0x00000000        0x0 bmptk_fixed_size_stack.o
- .text          0x00000000       0xa0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_ldivmod.o)
- .data          0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_ldivmod.o)
- .bss           0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_ldivmod.o)
- .debug_line    0x00000000       0x85 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_ldivmod.o)
- .debug_info    0x00000000       0x26 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_ldivmod.o)
- .debug_abbrev  0x00000000       0x14 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_ldivmod.o)
- .debug_aranges
-                0x00000000       0x20 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_ldivmod.o)
- .debug_str     0x00000000       0xb6 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_ldivmod.o)
- .debug_frame   0x00000000       0x44 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_ldivmod.o)
- .data          0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_uldivmod.o)
- .bss           0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_uldivmod.o)
- .data          0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_udivmoddi4.o)
- .bss           0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_udivmoddi4.o)
- .ARM.extab     0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_udivmoddi4.o)
- .data          0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_dvmd_tls.o)
- .bss           0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000       0xa0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_aeabi_ldivmod.o)
+ .debug_frame   0x00000000       0x44 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_dvmd_tls.o)
 
 Memory Configuration
 
@@ -631,18 +1421,18 @@ nul              0x20018000         0x00000000         xrw
 
 Linker script and memory map
 
-LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a
-LOAD hwlib.o
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a
 LOAD switch_to.o
 LOAD coroutine.o
 LOAD rtos.o
+LOAD hwlib.o
 LOAD main.o
 LOAD bmptk_cortex.o
 LOAD bmptk_heap_bmptk.o
 LOAD bmptk_fixed_size_stack.o
-LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/../../../../arm-eabi/lib/thumb/cortex_m3\libm.a
-LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a
-LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/../../../../arm-eabi/lib/thumb/cortex_m3\libc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libm.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libc.a
                 0x00000000                __rom_start = ORIGIN (rom)
                 0x00080000                __rom_size = LENGTH (rom)
                 0x00080000                __rom_end = (__rom_start + __rom_size)
@@ -656,7 +1446,7 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/../../../../arm-eabi/lib/t
                 [!provide]                PROVIDE (__ram_size, __ram_size)
                 [!provide]                PROVIDE (__ram_end, __ram_end)
 
-.text           0x00000000      0xdd4
+.text           0x00000000      0xfc4
                 0x00000000                . = ALIGN (0x4)
                 0x00000000                __text_start = .
                 [!provide]                PROVIDE (__text_start, __text_start)
@@ -666,240 +1456,291 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/../../../../arm-eabi/lib/t
                 0x00000000                __vectors
                 0x00000020                . = ALIGN (0x4)
  *(.text .text.* .gnu.linkonce.t.*)
- .text._ZN5hwlib6pin_in7refreshEv
-                0x00000020        0x2 hwlib.o
-                0x00000020                _ZN5hwlib6pin_in7refreshEv
- .text._ZN5hwlib6pin_oc7refreshEv
-                0x00000022        0x2 hwlib.o
-                0x00000022                _ZN5hwlib6pin_oc7refreshEv
- .text._ZN5hwlib6pin_oc5flushEv
-                0x00000024        0x2 hwlib.o
-                0x00000024                _ZN5hwlib6pin_oc5flushEv
- .text._ZN5hwlib7ostream5flushEv
-                0x00000026        0x2 hwlib.o
-                0x00000026                _ZN5hwlib7ostream5flushEv
- .text._ZN5hwlib7istream11getc_nowaitEv
-                0x00000028       0x1a hwlib.o
-                0x00000028                _ZN5hwlib7istream11getc_nowaitEv
- .text._ZN5hwlib19_pin_in_dummy_class3getENS_9bufferingE
-                0x00000042        0x4 hwlib.o
-                0x00000042                _ZN5hwlib19_pin_in_dummy_class3getENS_9bufferingE
- .text._ZN5hwlib19_pin_oc_dummy_class3setEbNS_9bufferingE
-                0x00000046        0x2 hwlib.o
-                0x00000046                _ZN5hwlib19_pin_oc_dummy_class3setEbNS_9bufferingE
- .text._ZN5hwlib19_pin_oc_dummy_class3getENS_9bufferingE
-                0x00000048        0x4 hwlib.o
-                0x00000048                _ZN5hwlib19_pin_oc_dummy_class3getENS_9bufferingE
- .text._ZN5hwlib7ostream6fillerEi
-                0x0000004c       0x1a hwlib.o
-                0x0000004c                _ZN5hwlib7ostream6fillerEi
- .text._ZN5hwliblsERNS_7ostreamEPKc
-                0x00000066       0x54 hwlib.o
-                0x00000066                _ZN5hwliblsERNS_7ostreamEPKc
- .text._ZN5hwlib5panicEPKcj
-                0x000000ba        0x2 hwlib.o
-                0x000000ba                _ZN5hwlib5panicEPKcj
+ .text          0x00000020       0x24 switch_to.o
+                0x00000020                switch_from_to
  .text._ZN6sam3xa10SystemInitEv
-                0x000000bc       0x7c hwlib.o
-                0x000000bc                _ZN6sam3xa10SystemInitEv
+                0x00000044       0x7c coroutine.o
+                0x00000044                sam3xa::SystemInit()
  .text._ZN3due8pin_infoENS_4pinsE
-                0x00000138       0x20 hwlib.o
-                0x00000138                _ZN3due8pin_infoENS_4pinsE
+                0x000000c0       0x20 coroutine.o
+                0x000000c0                due::pin_info(due::pins)
  .text._ZN3due14port_registersEm
-                0x00000158       0x48 hwlib.o
-                0x00000158                _ZN3due14port_registersEm
+                0x000000e0       0x54 coroutine.o
+                0x000000e0                due::port_registers(unsigned long)
  .text._ZN3due12ticks_per_usEv
-                0x000001a0        0x6 hwlib.o
-                0x000001a0                _ZN3due12ticks_per_usEv
- *fill*         0x000001a6        0x2 
+                0x00000134        0x6 coroutine.o
+                0x00000134                due::ticks_per_us()
+ *fill*         0x0000013a        0x2 
  .text._ZN3due9now_ticksEv
-                0x000001a8       0x74 hwlib.o
-                0x000001a8                _ZN3due9now_ticksEv
- .text._ZN3due9uart_initEv
-                0x0000021c       0x60 hwlib.o
-                0x0000021c                _ZN3due9uart_initEv
- .text._ZN3due9uart_putcEc
-                0x0000027c       0x1c hwlib.o
-                0x0000027c                _ZN3due9uart_putcEc
+                0x0000013c       0x80 coroutine.o
+                0x0000013c                due::now_ticks()
  .text._ZN5hwlib9uart_putcEc
-                0x00000298        0x4 hwlib.o
-                0x00000298                _ZN5hwlib9uart_putcEc
- .text._ZN5hwlib20cout_using_uart_putc4putcEc
-                0x0000029c        0xa hwlib.o
-                0x0000029c                _ZN5hwlib20cout_using_uart_putc4putcEc
- .text._ZN5hwlib6now_usEv
-                0x000002a6       0x1c hwlib.o
-                0x000002a6                _ZN5hwlib6now_usEv
- .text._ZN5hwlib12wait_us_busyEi
-                0x000002c2       0x1c hwlib.o
-                0x000002c2                _ZN5hwlib12wait_us_busyEi
- *fill*         0x000002de        0x2 
- .text          0x000002e0       0x24 switch_to.o
-                0x000002e0                switch_from_to
+                0x000001bc        0x4 coroutine.o
+                0x000001bc                hwlib::uart_putc(char)
  .text._ZN5hwlib7ostreamlsEc
-                0x00000304        0xe rtos.o
-                0x00000304                _ZN5hwlib7ostreamlsEc
- *fill*         0x00000312        0x2 
+                0x000001c0        0xe rtos.o
+                0x000001c0                hwlib::ostream::operator<<(char)
+ .text._ZN5hwliblsERNS_7ostreamEPKc
+                0x000001ce       0x66 rtos.o
+                0x000001ce                hwlib::operator<<(hwlib::ostream&, char const*)
  .text._ZN4rtos9task_base7releaseEv
-                0x00000314       0x24 rtos.o
-                0x00000314                _ZN4rtos9task_base7releaseEv
+                0x00000234       0x24 rtos.o
+                0x00000234                rtos::task_base::release()
  .text._ZN4rtos9task_base5blockEv
-                0x00000338       0x70 rtos.o
-                0x00000338                _ZN4rtos9task_base5blockEv
+                0x00000258       0x70 rtos.o
+                0x00000258                rtos::task_base::block()
  .text._ZN4rtos12waitable_set4waitEj
-                0x000003a8       0x64 rtos.o
-                0x000003a8                _ZN4rtos12waitable_set4waitEj
+                0x000002c8       0x64 rtos.o
+                0x000002c8                rtos::waitable_set::wait(unsigned int)
  .text._ZN5hwlib7wait_usEi
-                0x0000040c       0x3c rtos.o
-                0x0000040c                _ZN5hwlib7wait_usEi
+                0x0000032c       0x3c rtos.o
+                0x0000032c                hwlib::wait_us(int)
  .text._ZN5hwlib7wait_msEi
-                0x00000448       0x16 rtos.o
-                0x00000448                _ZN5hwlib7wait_msEi
- .text._ZN5hwlib7port_in7refreshEv
-                0x0000045e        0x2 main.o
-                0x0000045e                _ZN5hwlib7port_in7refreshEv
- .text._ZN5hwlib7port_oc7refreshEv
-                0x00000460        0x2 main.o
-                0x00000460                _ZN5hwlib7port_oc7refreshEv
- .text._ZN5hwlib7port_oc5flushEv
-                0x00000462        0x2 main.o
-                0x00000462                _ZN5hwlib7port_oc5flushEv
- .text._ZN5hwlib17port_in_from_pins14number_of_pinsEv
-                0x00000464        0x4 main.o
-                0x00000464                _ZN5hwlib17port_in_from_pins14number_of_pinsEv
- .text._ZN5hwlib17port_in_from_pins3getENS_9bufferingE
-                0x00000468       0x2e main.o
-                0x00000468                _ZN5hwlib17port_in_from_pins3getENS_9bufferingE
- .text._ZN5hwlib17port_oc_from_pins14number_of_pinsEv
-                0x00000496        0x4 main.o
-                0x00000496                _ZN5hwlib17port_oc_from_pins14number_of_pinsEv
- .text._ZN5hwlib17port_oc_from_pins3getENS_9bufferingE
-                0x0000049a       0x2c main.o
-                0x0000049a                _ZN5hwlib17port_oc_from_pins3getENS_9bufferingE
- .text._ZN5hwlib17port_oc_from_pins3setEjNS_9bufferingE
-                0x000004c6       0x2c main.o
-                0x000004c6                _ZN5hwlib17port_oc_from_pins3setEjNS_9bufferingE
- .text._ZN3due6pin_in3getEN5hwlib9bufferingE
-                0x000004f2       0x10 main.o
-                0x000004f2                _ZN3due6pin_in3getEN5hwlib9bufferingE
- .text._ZN3due6pin_oc3getEN5hwlib9bufferingE
-                0x00000502       0x10 main.o
-                0x00000502                _ZN3due6pin_oc3getEN5hwlib9bufferingE
- .text._ZN3due6pin_oc3setEbN5hwlib9bufferingE
-                0x00000512       0x10 main.o
-                0x00000512                _ZN3due6pin_oc3setEbN5hwlib9bufferingE
+                0x00000368       0x16 rtos.o
+                0x00000368                hwlib::wait_ms(int)
+ .text._ZN5hwlib14pin_in_dummy_t4readEv
+                0x0000037e        0x4 hwlib.o
+                0x0000037e                hwlib::pin_in_dummy_t::read()
+ .text._ZN5hwlib14pin_in_dummy_t7refreshEv
+                0x00000382        0x2 hwlib.o
+                0x00000382                hwlib::pin_in_dummy_t::refresh()
+ .text._ZN5hwlib14pin_oc_dummy_t5writeEb
+                0x00000384        0x2 hwlib.o
+                0x00000384                hwlib::pin_oc_dummy_t::write(bool)
+ .text._ZN5hwlib14pin_oc_dummy_t4readEv
+                0x00000386        0x4 hwlib.o
+                0x00000386                hwlib::pin_oc_dummy_t::read()
+ .text._ZN5hwlib14pin_oc_dummy_t5flushEv
+                0x0000038a        0x2 hwlib.o
+                0x0000038a                hwlib::pin_oc_dummy_t::flush()
+ .text._ZN5hwlib14pin_oc_dummy_t7refreshEv
+                0x0000038c        0x2 hwlib.o
+                0x0000038c                hwlib::pin_oc_dummy_t::refresh()
+ .text._ZN5hwlib19port_in_from_pins_t14number_of_pinsEv
+                0x0000038e        0x4 hwlib.o
+                0x0000038e                hwlib::port_in_from_pins_t::number_of_pins()
+ .text._ZN5hwlib19port_in_from_pins_t4readEv
+                0x00000392       0x2a hwlib.o
+                0x00000392                hwlib::port_in_from_pins_t::read()
+ .text._ZN5hwlib19port_in_from_pins_t7refreshEv
+                0x000003bc       0x20 hwlib.o
+                0x000003bc                hwlib::port_in_from_pins_t::refresh()
+ .text._ZN5hwlib19port_oc_from_pins_t14number_of_pinsEv
+                0x000003dc        0x4 hwlib.o
+                0x000003dc                hwlib::port_oc_from_pins_t::number_of_pins()
+ .text._ZN5hwlib19port_oc_from_pins_t4readEv
+                0x000003e0       0x2a hwlib.o
+                0x000003e0                hwlib::port_oc_from_pins_t::read()
+ .text._ZN5hwlib19port_oc_from_pins_t5writeEj
+                0x0000040a       0x28 hwlib.o
+                0x0000040a                hwlib::port_oc_from_pins_t::write(unsigned int)
+ .text._ZN5hwlib19port_oc_from_pins_t7refreshEv
+                0x00000432       0x20 hwlib.o
+                0x00000432                hwlib::port_oc_from_pins_t::refresh()
+ .text._ZN5hwlib19port_oc_from_pins_t5flushEv
+                0x00000452       0x20 hwlib.o
+                0x00000452                hwlib::port_oc_from_pins_t::flush()
+ .text._ZN5hwlib21port_direct_from_in_t14number_of_pinsEv
+                0x00000472        0x8 hwlib.o
+                0x00000472                hwlib::port_direct_from_in_t::number_of_pins()
+ .text._ZN5hwlib21port_direct_from_in_t4readEv
+                0x0000047a       0x18 hwlib.o
+                0x0000047a                hwlib::port_direct_from_in_t::read()
+ .text._ZN5hwlib21port_direct_from_in_t7refreshEv
+                0x00000492        0x2 hwlib.o
+                0x00000492                hwlib::port_direct_from_in_t::refresh()
+ .text._ZN5hwlib21port_direct_from_oc_t14number_of_pinsEv
+                0x00000494        0x8 hwlib.o
+                0x00000494                hwlib::port_direct_from_oc_t::number_of_pins()
+ .text._ZN5hwlib21port_direct_from_oc_t5writeEj
+                0x0000049c       0x18 hwlib.o
+                0x0000049c                hwlib::port_direct_from_oc_t::write(unsigned int)
+ .text._ZN5hwlib21port_direct_from_oc_t4readEv
+                0x000004b4       0x18 hwlib.o
+                0x000004b4                hwlib::port_direct_from_oc_t::read()
+ .text._ZN5hwlib21port_direct_from_oc_t5flushEv
+                0x000004cc        0x2 hwlib.o
+                0x000004cc                hwlib::port_direct_from_oc_t::flush()
+ .text._ZN5hwlib21port_direct_from_oc_t7refreshEv
+                0x000004ce        0x2 hwlib.o
+                0x000004ce                hwlib::port_direct_from_oc_t::refresh()
+ .text._ZN5hwlib7istream11getc_nowaitEv
+                0x000004d0       0x1a hwlib.o
+                0x000004d0                hwlib::istream::getc_nowait()
+ .text._ZN5hwlib20cout_using_uart_putc5flushEv
+                0x000004ea        0x2 hwlib.o
+                0x000004ea                hwlib::cout_using_uart_putc::flush()
+ .text._ZN5hwlib5panicEPKcj
+                0x000004ec        0x2 hwlib.o
+                0x000004ec                hwlib::panic(char const*, unsigned int)
+ *fill*         0x000004ee        0x2 
+ .text._ZN5hwlib10background18do_background_workEv
+                0x000004f0       0x3c hwlib.o
+                0x000004f0                hwlib::background::do_background_work()
+ .text._ZN5hwlib3allENS_2xyE
+                0x0000052c       0x16 hwlib.o
+                0x0000052c                hwlib::all(hwlib::xy)
+ *fill*         0x00000542        0x2 
+ .text._ZN5hwlib12port_in_fromERNS_6pin_inES1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_
+                0x00000544       0x68 hwlib.o
+                0x00000544                hwlib::port_in_from(hwlib::pin_in&, hwlib::pin_in&, hwlib::pin_in&, hwlib::pin_in&, hwlib::pin_in&, hwlib::pin_in&, hwlib::pin_in&, hwlib::pin_in&, hwlib::pin_in&, hwlib::pin_in&, hwlib::pin_in&, hwlib::pin_in&, hwlib::pin_in&, hwlib::pin_in&, hwlib::pin_in&, hwlib::pin_in&)
+ .text._ZN5hwlib12port_oc_fromERNS_6pin_ocES1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_S1_
+                0x000005ac       0x68 hwlib.o
+                0x000005ac                hwlib::port_oc_from(hwlib::pin_oc&, hwlib::pin_oc&, hwlib::pin_oc&, hwlib::pin_oc&, hwlib::pin_oc&, hwlib::pin_oc&, hwlib::pin_oc&, hwlib::pin_oc&, hwlib::pin_oc&, hwlib::pin_oc&, hwlib::pin_oc&, hwlib::pin_oc&, hwlib::pin_oc&, hwlib::pin_oc&, hwlib::pin_oc&, hwlib::pin_oc&)
+ .text._ZN3due9uart_initEv
+                0x00000614       0x60 hwlib.o
+                0x00000614                due::uart_init()
+ .text._ZN3due9uart_putcEc
+                0x00000674       0x20 hwlib.o
+                0x00000674                due::uart_putc(char)
+ .text._ZN5hwlib20cout_using_uart_putc4putcEc
+                0x00000694        0xa hwlib.o
+                0x00000694                hwlib::cout_using_uart_putc::putc(char)
+ .text._ZN5hwlib6now_usEv
+                0x0000069e       0x1c hwlib.o
+                0x0000069e                hwlib::now_us()
+ .text._ZN5hwlib12wait_us_busyEi
+                0x000006ba       0x1c hwlib.o
+                0x000006ba                hwlib::wait_us_busy(int)
+ .text._ZN3due6pin_in4readEv
+                0x000006d6       0x10 main.o
+                0x000006d6                due::pin_in::read()
+ .text._ZN3due6pin_in7refreshEv
+                0x000006e6        0x2 main.o
+                0x000006e6                due::pin_in::refresh()
+ .text._ZN3due6pin_oc4readEv
+                0x000006e8       0x10 main.o
+                0x000006e8                due::pin_oc::read()
+ .text._ZN3due6pin_oc5writeEb
+                0x000006f8       0x10 main.o
+                0x000006f8                due::pin_oc::write(bool)
+ .text._ZN3due6pin_oc5flushEv
+                0x00000708        0x2 main.o
+                0x00000708                due::pin_oc::flush()
+ .text._ZN3due6pin_oc7refreshEv
+                0x0000070a        0x2 main.o
+                0x0000070a                due::pin_oc::refresh()
  .text._ZN5hwlib6keypadILi16EE4getcEv
-                0x00000522       0x24 main.o
-                0x00000522                _ZN5hwlib6keypadILi16EE4getcEv
- .text._ZN5hwlib6keypadILi16EE14char_availableEv
-                0x00000546       0xa0 main.o
-                0x00000546                _ZN5hwlib6keypadILi16EE14char_availableEv
- *fill*         0x000005e6        0x2 
+                0x0000070c       0x24 main.o
+                0x0000070c                hwlib::keypad<16>::getc()
  .text._ZN3due6pin_inC2ENS_4pinsE
-                0x000005e8       0x34 main.o
-                0x000005e8                _ZN3due6pin_inC2ENS_4pinsE
-                0x000005e8                _ZN3due6pin_inC1ENS_4pinsE
+                0x00000730       0x34 main.o
+                0x00000730                due::pin_in::pin_in(due::pins)
+                0x00000730                due::pin_in::pin_in(due::pins)
  .text._ZN3due6pin_ocC2ENS_4pinsE
-                0x0000061c       0x34 main.o
-                0x0000061c                _ZN3due6pin_ocC2ENS_4pinsE
-                0x0000061c                _ZN3due6pin_ocC1ENS_4pinsE
+                0x00000764       0x34 main.o
+                0x00000764                due::pin_oc::pin_oc(due::pins)
+                0x00000764                due::pin_oc::pin_oc(due::pins)
  .text._Z9test_dumpRN5hwlib7istreamE
-                0x00000650       0xdc main.o
-                0x00000650                _Z9test_dumpRN5hwlib7istreamE
+                0x00000798       0xdc main.o
+                0x00000798                test_dump(hwlib::istream&)
  .text.startup.main
-                0x0000072c      0x174 main.o
-                0x0000072c                main
+                0x00000874      0x130 main.o
+                0x00000874                main
+ .text._ZN5hwlib6keypadILi16EE7pressedEv
+                0x000009a4       0x70 main.o
+                0x000009a4                hwlib::keypad<16>::pressed()
+ .text._ZN5hwlib6keypadILi16EE14char_availableEv
+                0x00000a14       0x4a main.o
+                0x00000a14                hwlib::keypad<16>::char_available()
+ *fill*         0x00000a5e        0x2 
  .text.__startup
-                0x000008a0       0x48 bmptk_cortex.o
-                0x000008a0                __startup
- .text          0x000008e8       0x30 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_uldivmod.o)
-                0x000008e8                __aeabi_uldivmod
- .text          0x00000918      0x2d0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_udivmoddi4.o)
-                0x00000918                __udivmoddi4
- .text          0x00000be8        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_dvmd_tls.o)
-                0x00000be8                __aeabi_ldiv0
-                0x00000bec                . = ALIGN (0x4)
+                0x00000a60       0x48 bmptk_cortex.o
+                0x00000a60                __startup
+ .text          0x00000aa8       0x30 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_aeabi_uldivmod.o)
+                0x00000aa8                __aeabi_uldivmod
+ .text          0x00000ad8      0x2d0 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_udivmoddi4.o)
+                0x00000ad8                __udivmoddi4
+ .text          0x00000da8        0x4 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_dvmd_tls.o)
+                0x00000da8                __aeabi_ldiv0
+                0x00000dac                . = ALIGN (0x4)
  *(.glue_7t .glue_7)
- .glue_7        0x00000bec        0x0 linker stubs
- .glue_7t       0x00000bec        0x0 linker stubs
-                0x00000bec                . = ALIGN (0x4)
+ .glue_7        0x00000dac        0x0 linker stubs
+ .glue_7t       0x00000dac        0x0 linker stubs
+                0x00000dac                . = ALIGN (0x4)
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata._ZTVN5hwlib20cout_using_uart_putcE
-                0x00000bec       0x10 hwlib.o
-                0x00000bec                _ZTVN5hwlib20cout_using_uart_putcE
- .rodata._ZTVN5hwlib19_pin_in_dummy_classE
-                0x00000bfc       0x10 hwlib.o
-                0x00000bfc                _ZTVN5hwlib19_pin_in_dummy_classE
- .rodata._ZTVN5hwlib19_pin_oc_dummy_classE
-                0x00000c0c       0x18 hwlib.o
-                0x00000c0c                _ZTVN5hwlib19_pin_oc_dummy_classE
  .rodata._ZN3due8pin_infoENS_4pinsE.str1.1
-                0x00000c24       0x33 hwlib.o
+                0x00000dac       0x33 coroutine.o
  .rodata._ZZN3due8pin_infoENS_4pinsEE14pin_info_array
-                0x00000c57       0xa4 hwlib.o
+                0x00000ddf       0xa4 coroutine.o
  .rodata._ZN4rtos9task_base5blockEv.str1.1
-                0x00000cfb       0x49 rtos.o
+                0x00000e83       0x49 rtos.o
                                  0x4b (size before relaxing)
- .rodata._ZTVN5hwlib17port_in_from_pinsE
-                0x00000d44       0x14 main.o
-                0x00000d44                _ZTVN5hwlib17port_in_from_pinsE
- .rodata._ZTVN5hwlib17port_oc_from_pinsE
-                0x00000d58       0x1c main.o
-                0x00000d58                _ZTVN5hwlib17port_oc_from_pinsE
+ .rodata._ZTVN5hwlib14pin_in_dummy_tE
+                0x00000ecc       0x10 hwlib.o
+                0x00000ecc                vtable for hwlib::pin_in_dummy_t
+ .rodata._ZTVN5hwlib14pin_oc_dummy_tE
+                0x00000edc       0x18 hwlib.o
+                0x00000edc                vtable for hwlib::pin_oc_dummy_t
+ .rodata._ZTVN5hwlib19port_in_from_pins_tE
+                0x00000ef4       0x14 hwlib.o
+                0x00000ef4                vtable for hwlib::port_in_from_pins_t
+ .rodata._ZTVN5hwlib19port_oc_from_pins_tE
+                0x00000f08       0x1c hwlib.o
+                0x00000f08                vtable for hwlib::port_oc_from_pins_t
+ .rodata._ZTVN5hwlib21port_direct_from_in_tE
+                0x00000f24       0x14 hwlib.o
+                0x00000f24                vtable for hwlib::port_direct_from_in_t
+ .rodata._ZTVN5hwlib21port_direct_from_oc_tE
+                0x00000f38       0x1c hwlib.o
+                0x00000f38                vtable for hwlib::port_direct_from_oc_t
+ .rodata._ZTVN5hwlib20cout_using_uart_putcE
+                0x00000f54       0x10 hwlib.o
+                0x00000f54                vtable for hwlib::cout_using_uart_putc
  .rodata._ZTVN3due6pin_inE
-                0x00000d74       0x10 main.o
-                0x00000d74                _ZTVN3due6pin_inE
+                0x00000f64       0x10 main.o
+                0x00000f64                vtable for due::pin_in
  .rodata._ZTVN3due6pin_ocE
-                0x00000d84       0x18 main.o
-                0x00000d84                _ZTVN3due6pin_ocE
+                0x00000f74       0x18 main.o
+                0x00000f74                vtable for due::pin_oc
  .rodata._ZTVN5hwlib6keypadILi16EEE
-                0x00000d9c       0x14 main.o
-                0x00000d9c                _ZTVN5hwlib6keypadILi16EEE
+                0x00000f8c       0x14 main.o
+                0x00000f8c                vtable for hwlib::keypad<16>
  .rodata._Z9test_dumpRN5hwlib7istreamE.str1.1
-                0x00000db0        0x6 main.o
+                0x00000fa0        0x6 main.o
  .rodata.main.str1.1
-                0x00000db6       0x1e main.o
-                0x00000dd4                . = ALIGN (0x4)
+                0x00000fa6       0x1e main.o
+                0x00000fc4                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000dd4                . = ALIGN (0x4)
+                0x00000fc4                . = ALIGN (0x4)
  *(.gcc_except_table)
-                0x00000dd4                . = ALIGN (0x4)
+                0x00000fc4                . = ALIGN (0x4)
  *(.eh_frame_hdr)
-                0x00000dd4                . = ALIGN (0x4)
+                0x00000fc4                . = ALIGN (0x4)
  *(.eh_frame)
-                0x00000dd4                . = ALIGN (0x4)
-                0x00000dd4                __text_end = .
+                0x00000fc4                . = ALIGN (0x4)
+                0x00000fc4                __text_end = .
                 [!provide]                PROVIDE (__text_end, __text_end)
 
-.vfp11_veneer   0x00000dd4        0x0
- .vfp11_veneer  0x00000dd4        0x0 linker stubs
+.vfp11_veneer   0x00000fc4        0x0
+ .vfp11_veneer  0x00000fc4        0x0 linker stubs
 
-.v4_bx          0x00000dd4        0x0
- .v4_bx         0x00000dd4        0x0 linker stubs
+.v4_bx          0x00000fc4        0x0
+ .v4_bx         0x00000fc4        0x0 linker stubs
 
-.iplt           0x00000dd4        0x0
- .iplt          0x00000dd4        0x0 hwlib.o
+.iplt           0x00000fc4        0x0
+ .iplt          0x00000fc4        0x0 coroutine.o
 
 .IF_YOU_SEE_THIS_YOU_HAVE_ONE_OR_MORE_GLOBAL_OBJECT_CONSTRUCTORS
  *(.init)
  *(.preinit_array)
- *(SORT(.init_array.*))
+ *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
-                0x00000dd4                . = ALIGN (0x4)
-                0x00000dd4                __exidx_start = .
+                0x00000fc4                . = ALIGN (0x4)
+                0x00000fc4                __exidx_start = .
                 [!provide]                PROVIDE (__exidx_start, __exidx_start)
 
-.ARM.exidx      0x00000dd4        0x8
+.ARM.exidx      0x00000fc4        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x00000dd4        0x8 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x00000fc4        0x8 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_udivmoddi4.o)
 
-.rel.dyn        0x00000ddc        0x0
- .rel.iplt      0x00000ddc        0x0 hwlib.o
-                0x00000ddc                . = ALIGN (0x4)
-                0x00000ddc                __exidx_end = .
+.rel.dyn        0x00000fcc        0x0
+ .rel.iplt      0x00000fcc        0x0 coroutine.o
+                0x00000fcc                . = ALIGN (0x4)
+                0x00000fcc                __exidx_end = .
                 [!provide]                PROVIDE (__exidx_end, __exidx_end)
 
-.bss            0x20000000    0x14020
+.bss            0x20000000    0x14030
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                __stack_start = .
                 [!provide]                PROVIDE (__stack_start, __stack_start)
@@ -918,75 +1759,86 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/../../../../arm-eabi/lib/t
                 [!provide]                PROVIDE (__bss_start, __bss_start)
                 0x20014000                . = ALIGN (0x4)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss._ZZN3due9now_ticksEvE4high
-                0x20014000        0x8 hwlib.o
- .bss._ZZN3due9now_ticksEvE8last_low
-                0x20014008        0x4 hwlib.o
- .bss._ZZN3due9now_ticksEvE9init_done
-                0x2001400c        0x1 hwlib.o
- .bss._ZZN3due9uart_initEvE9init_done
-                0x2001400d        0x1 hwlib.o
- *fill*         0x2001400e        0x2 
  .bss._ZN17coroutine_context7main_spE
+                0x20014000        0x4 coroutine.o
+                0x20014000                coroutine_context::main_sp
+ *fill*         0x20014004        0x4 
+ .bss._ZZN3due9now_ticksEvE4high
+                0x20014008        0x8 coroutine.o
+ .bss._ZZN3due9now_ticksEvE8last_low
                 0x20014010        0x4 coroutine.o
-                0x20014010                _ZN17coroutine_context7main_spE
+ .bss._ZZN3due9now_ticksEvE9init_done
+                0x20014014        0x1 coroutine.o
+ *fill*         0x20014015        0x3 
  .bss._ZN4rtos17rtos_current_taskE
-                0x20014014        0x4 rtos.o
-                0x20014014                _ZN4rtos17rtos_current_taskE
+                0x20014018        0x4 rtos.o
+                0x20014018                rtos::rtos_current_task
  .bss._ZN4rtos17scheduler_runningE
-                0x20014018        0x1 rtos.o
-                0x20014018                _ZN4rtos17scheduler_runningE
- *fill*         0x20014019        0x3 
+                0x2001401c        0x1 rtos.o
+                0x2001401c                rtos::scheduler_running
+ *fill*         0x2001401d        0x3 
  .bss._ZN4rtos5flagsE
-                0x2001401c        0x4 rtos.o
-                0x2001401c                _ZN4rtos5flagsE
-                0x20014020                . = ALIGN (0x4)
+                0x20014020        0x4 rtos.o
+                0x20014020                rtos::flags
+ .bss._ZN5hwlib10background5firstE
+                0x20014024        0x4 hwlib.o
+                0x20014024                hwlib::background::first
+ .bss._ZN5hwlib10background7currentE
+                0x20014028        0x4 hwlib.o
+                0x20014028                hwlib::background::current
+ .bss._ZN5hwlib10background7runningE
+                0x2001402c        0x1 hwlib.o
+                0x2001402c                hwlib::background::running
+ .bss._ZZN3due9uart_initEvE9init_done
+                0x2001402d        0x1 hwlib.o
+                0x20014030                . = ALIGN (0x4)
+ *fill*         0x2001402e        0x2 
  *(COMMON)
-                0x20014020                . = ALIGN (0x4)
-                0x20014020                __bss_end = .
+                0x20014030                . = ALIGN (0x4)
+                0x20014030                __bss_end = .
                 [!provide]                PROVIDE (__bss_end, __bss_end)
 
-.data           0x20014020       0x28 load address 0x00000ddc
-                0x20014020                . = ALIGN (0x4)
-                0x00000ddc                __data_init_start = LOADADDR (.data)
+.data           0x20014030       0x28 load address 0x00000fcc
+                0x20014030                . = ALIGN (0x4)
+                0x00000fcc                __data_init_start = LOADADDR (.data)
                 [!provide]                PROVIDE (__data_init_start, __data_init_start)
-                0x20014020                __data_start = .
+                0x20014030                __data_start = .
                 [!provide]                PROVIDE (__data_start, __data_start)
-                0x20014020                . = ALIGN (0x4)
+                0x20014030                . = ALIGN (0x4)
  *(.data .data.* .gnu.linkonce.d.*)
- .data._ZN3due7hw_uartE
-                0x20014020        0x4 hwlib.o
-                0x20014020                _ZN3due7hw_uartE
- .data._ZN5hwlib12pin_in_dummyE
-                0x20014024        0x4 hwlib.o
-                0x20014024                _ZN5hwlib12pin_in_dummyE
- .data._ZN5hwlib12pin_oc_dummyE
-                0x20014028        0x4 hwlib.o
-                0x20014028                _ZN5hwlib12pin_oc_dummyE
- .data._ZN5hwlib4coutE
-                0x2001402c       0x14 hwlib.o
-                0x2001402c                _ZN5hwlib4coutE
- .data._ZN6sam3xa15SystemCoreClockE
-                0x20014040        0x4 hwlib.o
-                0x20014040                _ZN6sam3xa15SystemCoreClockE
  .data._ZN17coroutine_context24current_coroutine_sp_ptrE
-                0x20014044        0x4 coroutine.o
-                0x20014044                _ZN17coroutine_context24current_coroutine_sp_ptrE
-                0x20014048                . = ALIGN (0x4)
-                0x20014048                __data_end = .
+                0x20014030        0x4 coroutine.o
+                0x20014030                coroutine_context::current_coroutine_sp_ptr
+ .data._ZN6sam3xa15SystemCoreClockE
+                0x20014034        0x4 coroutine.o
+                0x20014034                sam3xa::SystemCoreClock
+ .data._ZN3due7hw_uartE
+                0x20014038        0x4 hwlib.o
+                0x20014038                due::hw_uart
+ .data._ZN5hwlib12pin_in_dummyE
+                0x2001403c        0x4 hwlib.o
+                0x2001403c                hwlib::pin_in_dummy
+ .data._ZN5hwlib12pin_oc_dummyE
+                0x20014040        0x4 hwlib.o
+                0x20014040                hwlib::pin_oc_dummy
+ .data._ZN5hwlib4coutE
+                0x20014044       0x14 hwlib.o
+                0x20014044                hwlib::cout
+                0x20014058                . = ALIGN (0x4)
+                0x20014058                __data_end = .
                 [!provide]                PROVIDE (__data_end, __data_end)
-                0x00000ddc                __data_init_end = LOADADDR (.data)
+                0x00000fcc                __data_init_end = LOADADDR (.data)
                 [!provide]                PROVIDE (__data_init_end, __data_init_end)
                 0x00000028                PROVIDE (__data_size, (__data_end - __data_start))
                 0x00000028                PROVIDE (__data_init_size, __data_size)
                 [!provide]                PROVIDE (__data_init_end, (__data_init_start + __data_init_size))
 
-.igot.plt       0x20014048        0x0 load address 0x00000e04
- .igot.plt      0x20014048        0x0 hwlib.o
-                0x20014048                . = ALIGN (0x4)
-                0x20014048                __heap_start = .
+.igot.plt       0x20014058        0x0 load address 0x00000ff4
+ .igot.plt      0x20014058        0x0 coroutine.o
+                0x20014058                . = ALIGN (0x4)
+                0x20014058                __heap_start = .
                 [!provide]                PROVIDE (__heap_start, __heap_start)
-                0x20014048                . = ALIGN (0x4)
+                0x20014058                . = ALIGN (0x4)
                 0x20018000                __heap_end = __ram_end
                 [!provide]                PROVIDE (__heap_end, __heap_end)
 
@@ -1008,62 +1860,40 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/../../../../arm-eabi/lib/t
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000       0x60
+.debug_aranges
  *(.debug_aranges)
- .debug_aranges
-                0x00000000       0x20 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_uldivmod.o)
- .debug_aranges
-                0x00000020       0x20 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_udivmoddi4.o)
- .debug_aranges
-                0x00000040       0x20 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_dvmd_tls.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000      0xd4b
+.debug_info
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000       0x26 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_uldivmod.o)
- .debug_info    0x00000026      0xcff c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_udivmoddi4.o)
- .debug_info    0x00000d25       0x26 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_dvmd_tls.o)
 
-.debug_abbrev   0x00000000      0x1c1
+.debug_abbrev
  *(.debug_abbrev)
- .debug_abbrev  0x00000000       0x14 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_uldivmod.o)
- .debug_abbrev  0x00000014      0x199 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_udivmoddi4.o)
- .debug_abbrev  0x000001ad       0x14 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_dvmd_tls.o)
 
-.debug_line     0x00000000      0x333
+.debug_line
  *(.debug_line)
- .debug_line    0x00000000       0x67 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_uldivmod.o)
- .debug_line    0x00000067      0x265 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_udivmoddi4.o)
- .debug_line    0x000002cc       0x67 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_dvmd_tls.o)
 
 .debug_frame    0x00000000       0x60
  *(.debug_frame)
- .debug_frame   0x00000000       0x2c c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x0000002c       0x34 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000002c       0x34 c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_udivmoddi4.o)
 
-.debug_str      0x00000000     0x1412
+.comment        0x00000000       0x7e
+ .comment       0x00000000       0x7e coroutine.o
+                                 0x7f (size before relaxing)
+ .comment       0x0000007e       0x7f rtos.o
+ .comment       0x0000007e       0x7f hwlib.o
+ .comment       0x0000007e       0x7f main.o
+ .comment       0x0000007e       0x7f bmptk_cortex.o
+ .comment       0x0000007e       0x7f bmptk_fixed_size_stack.o
+
+.debug_str
  *(.debug_str)
- .debug_str     0x00000000       0xb6 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_uldivmod.o)
- .debug_str     0x000000b6     0x1325 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_udivmoddi4.o)
-                               0x13da (size before relaxing)
- .debug_str     0x000013db       0x37 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_dvmd_tls.o)
-                                 0xba (size before relaxing)
 
-.debug_loc      0x00000000      0xe8b
+.debug_loc
  *(.debug_loc)
- .debug_loc     0x00000000      0xe8b c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_udivmoddi4.o)
-
-.comment        0x00000000       0x11
- .comment       0x00000000       0x11 hwlib.o
-                                 0x12 (size before relaxing)
- .comment       0x00000011       0x12 coroutine.o
- .comment       0x00000011       0x12 rtos.o
- .comment       0x00000011       0x12 main.o
- .comment       0x00000011       0x12 bmptk_cortex.o
- .comment       0x00000011       0x12 bmptk_fixed_size_stack.o
- .comment       0x00000011       0x12 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_udivmoddi4.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -1084,16 +1914,16 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/../../../../arm-eabi/lib/t
  *(.note.gnu.arm.ident)
 
 .ARM.attributes
-                0x00000000       0x31
+                0x00000000       0x2f
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x33 hwlib.o
+                0x00000000       0x21 switch_to.o
  .ARM.attributes
-                0x00000033       0x21 switch_to.o
+                0x00000021       0x33 coroutine.o
  .ARM.attributes
-                0x00000054       0x33 coroutine.o
+                0x00000054       0x33 rtos.o
  .ARM.attributes
-                0x00000087       0x33 rtos.o
+                0x00000087       0x33 hwlib.o
  .ARM.attributes
                 0x000000ba       0x33 main.o
  .ARM.attributes
@@ -1103,13 +1933,13 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/../../../../arm-eabi/lib/t
  .ARM.attributes
                 0x00000153       0x33 bmptk_fixed_size_stack.o
  .ARM.attributes
-                0x00000186       0x23 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_ldivmod.o)
+                0x00000186       0x1d c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_aeabi_ldivmod.o)
  .ARM.attributes
-                0x000001a9       0x23 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_aeabi_uldivmod.o)
+                0x000001a3       0x1d c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x000001cc       0x33 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_udivmoddi4.o)
+                0x000001c0       0x2d c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x000001ff       0x23 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_dvmd_tls.o)
+                0x000001ed       0x1d c:/program files (x86)/gnu tools arm embedded/7 2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libgcc.a(_dvmd_tls.o)
 
 /DISCARD/
  *(.note.GNU-stack)
@@ -1119,6 +1949,3 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/../../../../arm-eabi/lib/t
                 [!provide]                PROVIDE (__stack_size, (__stack_end - __stack_start))
                 [!provide]                PROVIDE (__heap_size, (__heap_end - __heap_start))
 OUTPUT(main.elf elf32-littlearm)
-
-.debug_ranges   0x00000000       0xf8
- .debug_ranges  0x00000000       0xf8 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/thumb/cortex_m3\libgcc.a(_udivmoddi4.o)

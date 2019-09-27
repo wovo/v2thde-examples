@@ -13,14 +13,12 @@ void test_toggle( hwlib::istream & kbd, hwlib::pin_out & led ){
    for(;;){
       (void)kbd.getc();
       x = ! x;
-      led.set( x );
+      led.write( x );
+      led.flush();
    }   
 }
 
 int main( void ){	
-    
-   // kill the watchdog
-   WDT->WDT_MR = WDT_MR_WDDIS;
    
    namespace target = hwlib::target;   
     
@@ -41,8 +39,8 @@ int main( void ){
    auto in2  = target::pin_in( target::pins::a6 );
    auto in3  = target::pin_in( target::pins::a7 );
    
-   auto out_port = hwlib::port_oc_from_pins( out0, out1, out2, out3 );
-   auto in_port  = hwlib::port_in_from_pins( in0,  in1,  in2,  in3  );
+   auto out_port = hwlib::port_oc_from( out0, out1, out2, out3 );
+   auto in_port  = hwlib::port_in_from( in0,  in1,  in2,  in3  );
    auto matrix   = hwlib::matrix_of_switches( out_port, in_port );
    auto keypad   = hwlib::keypad< 16 >( matrix, "123A456B789C*0#D" );
    

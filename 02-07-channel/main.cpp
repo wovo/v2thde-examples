@@ -43,12 +43,13 @@ private:
          auto event = wait( blink_clock + log_clock );
          if( event == blink_clock ){
             level = ! level;
-            pin.set( level ); 
+            pin.write( level ); 
+            pin.flush();
          } else {
             log.add( "Hello\n" );
          }
       }
-   }
+   } 
    
 public:
    writer( 
@@ -64,9 +65,6 @@ public:
 };
 
 int main( void ){	
-    
-   // kill the watchdog
-   WDT->WDT_MR = WDT_MR_WDDIS;
    
    // wait for the PC console to start
    hwlib::wait_ms( 500 );

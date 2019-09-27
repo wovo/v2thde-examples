@@ -1,4 +1,3 @@
-#include "bmptk.h"
 #include "hwlib.hpp"
 #include "rtos.hpp"
 
@@ -14,7 +13,8 @@ private:
          blink_timer.set( delay );
          wait( blink_timer );
          level = ! level;
-         pin.set( level );
+         pin.write( level );
+         pin.flush();
       }
    }
 public:
@@ -31,9 +31,6 @@ public:
 };
 
 int main( void ){	
-    
-   // kill the watchdog
-   WDT->WDT_MR = WDT_MR_WDDIS;
    
    // wait for the PC console to start
    hwlib::wait_ms( 500 );

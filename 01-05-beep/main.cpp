@@ -10,9 +10,11 @@ void beep( hwlib::pin_out & lsp, int f, int d, int fd = 1000 ){
    while( end > hwlib::now_us() ){
        auto p = 500'000 / f;
        f = f * fd / 1000;
-       lsp.set( 1 );
+       lsp.write( 1 );
+       lsp.flush();
        await( t += p );
-       lsp.set( 0 );
+       lsp.write( 0 );
+       lsp.flush();
        await( t += p );
    }   
 }
@@ -50,43 +52,42 @@ void uhoh( hwlib::pin_out & lsp ) {
 
 void noise( hwlib::pin_out & lsp ) {
    for (int i = 0; i < 200; i++ ){
-      lsp.set( ( hwlib::rand() & 0x01 ) == 0);
+      lsp.write( ( hwlib::rand() & 0x01 ) == 0);
+      lsp.flush();
       hwlib::wait_us( 1'000 ); 
    }     
 }    
 
 void noise2( hwlib::pin_out & lsp ){
    for (int i = 0; i < 200; i++ ){
-      lsp.set( 1 );
-      hwlib::wait_us( hwlib::random_in_range( 500, 2000 )); 
-      lsp.set( 0 );
-      hwlib::wait_us( hwlib::random_in_range( 500, 2000 )); 
+      lsp.write( 1 );
+      lsp.flush();
+      hwlib::wait_us( hwlib::random_in( 500, 2000 )); 
+      lsp.write( 0 );
+      lsp.flush();
+      hwlib::wait_us( hwlib::random_in( 500, 2000 )); 
    }     
 }    
 
 void click( hwlib::pin_out & lsp ){
    for (int i = 0; i < 200; i++ ){
-      lsp.set( 1 );
-      hwlib::wait_us( hwlib::random_in_range( 500, 600 )); 
-      lsp.set( 0 );
-      hwlib::wait_us( hwlib::random_in_range( 500, 600 )); 
+      lsp.write( 1 );
+      lsp.flush();
+      hwlib::wait_us( hwlib::random_in( 500, 600 )); 
+      lsp.write( 0 );
+      lsp.flush();
+      hwlib::wait_us( hwlib::random_in( 500, 600 )); 
    }     
 }   
 
 int main( void ){	
-    
-   // kill the watchdog
-   WDT->WDT_MR = WDT_MR_WDDIS;
    
    namespace target = hwlib::target;
    auto lsp = target::pin_out( target::pins::d7 ); 
    
-   // ohhh( lsp );
-   
-   //noise( lsp );
-   // click( lsp );
-   
-   // uhoh( lsp );
-   
+   ohhh( lsp );
+   noise( lsp );
+   click( lsp );
+   uhoh( lsp );
    beep3( lsp );
 }

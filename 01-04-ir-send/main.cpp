@@ -1,19 +1,12 @@
 #include "hwlib.hpp"
 
 int main( void ){	
-    
-   // kill the watchdog
-   WDT->WDT_MR = WDT_MR_WDDIS;
-   
-   // wait for the PC terminal to start
-   hwlib::wait_ms( 500 );
    
    // IR output LED
    auto ir = hwlib::target::d2_36kHz();
    
    // red output LED
    auto red = hwlib::target::pin_out( hwlib::target::pins::d42 );
-   
    
    // switch which enables the 36 kHz output
    auto sw = hwlib::target::pin_in( hwlib::target::pins::d43 );
@@ -23,11 +16,16 @@ int main( void ){
    // and show this on the LED
    for(;;){
       hwlib::wait_ms( 1 ); 
-      ir.set( ! sw.get() );
-      red.set( ! sw.get() );
+      
+      sw.refresh();
+      ir.write( ! sw.read() );
+      red.write( ! sw.read() );
+      ir.flush();
+      red.flush();
       
       hwlib::wait_ms( 1 );
-      ir.set( 0 );
+      ir.write( 0 );
+      ir.flush();
    }
 }
 

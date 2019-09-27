@@ -1,4 +1,3 @@
-#include "bmptk.h"
 #include "hwlib.hpp"
 #include "rtos.hpp"
 
@@ -8,9 +7,11 @@ private:
    long long int delay;
    void main(){
       for(;;){
-         pin.set( 1 );             
+         pin.write( 1 );             
+         pin.flush();
          hwlib::wait_ms( delay );          
-         pin.set( 0 );
+         pin.write( 0 );
+         pin.flush();
          hwlib::wait_ms( delay );
       }
    }
@@ -32,9 +33,6 @@ extern unsigned int __stack_start;
 extern unsigned int __stack_end;
 
 int main( void ){	
-    
-   // kill the watchdog
-   WDT->WDT_MR = WDT_MR_WDDIS;
    
    // wait for the PC console to start
    hwlib::wait_ms( 500 ); 

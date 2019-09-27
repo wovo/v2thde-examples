@@ -4,7 +4,7 @@
 class writer : public rtos::task<> {
 private:
    rtos::mutex & mutex;
-   hwlib::console & out;
+   hwlib::terminal & out;
    char c;
    
    void main(){
@@ -24,7 +24,7 @@ public:
    writer( 
       const char * name, 
       rtos::mutex & mutex,
-      hwlib::console & out,
+      hwlib::terminal & out,
       char c
    ):
       task( name ),
@@ -35,9 +35,6 @@ public:
 };
 
 int main( void ){	
-    
-   // kill the watchdog
-   WDT->WDT_MR = WDT_MR_WDDIS;
    
    // wait for the PC console to start
    hwlib::wait_ms( 500 );
@@ -50,24 +47,20 @@ int main( void ){
    auto sda = target::pin_oc( target::pins::sda );
    
    auto i2c_bus = hwlib::i2c_bus_bit_banged_scl_sda( sda, scl );
-   auto pin_gnd = target::pin_out( target::pins::d19 );
-   pin_gnd.set( 1 );
-   auto pin_vcc = target::pin_out( target::pins::d18 );
-   pin_vcc.set( 0 );
    
    auto oled = hwlib::glcd_oled( i2c_bus, 0x3c );  
-   auto w1 = hwlib::window_part( 
+   auto w1 = hwlib::part( 
       oled, 
-      hwlib::location( 0, 0 ),
-      hwlib::location( 128, 32));
-   auto w2 = hwlib::window_part( 
+      hwlib::xy( 0, 0 ),
+      hwlib::xy( 128, 32));
+   auto w2 = hwlib::part( 
       oled, 
-      hwlib::location( 0, 32 ),
-      hwlib::location( 128, 32));
+      hwlib::xy( 0, 32 ),
+      hwlib::xy( 128, 32));
       
    auto font = hwlib::font_default_8x8();
-   auto d1 = hwlib::window_ostream( w1, font );
-   auto d2 = hwlib::window_ostream( w2, font );
+   auto d1 = hwlib::terminal_from( w1, font );
+   auto d2 = hwlib::terminal_from( w2, font );
    
    auto m1 = rtos::mutex( "m1" );
    auto m2 = rtos::mutex( "m2" );
